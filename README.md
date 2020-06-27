@@ -7,6 +7,15 @@
 * __Students:__ Students gain knowledge in order of learning, which keeps prequisites in check through cross curriculums, without wasting time on duplicated topics through multiple classes
 * __Parents:__ Parents can feel confident knowing that the children have organized education levels of learning.
 
+## Stakeholder Persona
+### Jenn Brown
+
+* _Age:_ 
+* _Gender:_ female
+* _Location:_ 
+* _Technical Comfort:_ 
+* _Job Title:_ AP Biology Teacher
+
 ## Product Iteration (Summer 2020)
 * __Name:__ Curriculum Crawler
 * __Product Iteration Near Vision:__ Curriculum Crawler is a software platform to facilitate, support, and encourage 
@@ -16,15 +25,6 @@ easily customize their site to raise awareness, harness membership, and communic
   * Infrastructure: Google Cloud?
   * Persistence: [missing]
   * [missing]
-
-## Stakeholder Persona
-### Jenn Brown
-
-* _Age:_ 
-* _Gender:_ female
-* _Location:_ 
-* _Technical Comfort:_ 
-* _Job Title:_ AP Biology Teacher
 
 __Backstory__ _Tell us a bit about their responsibilities and interests._ Jeen is married to Keith Brown,...
 
