@@ -1,7 +1,23 @@
 # Curriculum Crawler
 
-## Stakeholders
-[missing]
+## Stakeholder
+### Jenn Brown
+
+* _Age:_ 
+* _Gender:_ female
+* _Location:_ 
+* _Technical Comfort:_ 
+* _Job Title:_ AP Biology Teacher
+
+__Backstory__ _Tell us a bit about their responsibilities and interests._ Jeen is married to Keith Brown,...
+
+__Motivations__ _How have they found or heard about the website/service? Why would they be interested?_ 
+
+__Goals__ _What do they want to get out of this service? What are they aiming to achieve?_ 
+
+__Barriers__ _What would annoy them as they use it?_ 
+
+__Quote__ _We’ll know we’ve done a good job when this persona tells us:_ 
 
 ## Product Iteration (Summer 2020)
 * __Name:__ Curriculum Crawler
