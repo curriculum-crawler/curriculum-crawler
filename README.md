@@ -17,6 +17,26 @@ easily customize their site to raise awareness, harness membership, and communic
   * Persistence: [missing]
   * [missing]
 
+## Stakeholder Persona
+### Jenn Brown
+
+* _Age:_ 
+* _Gender:_ female
+* _Location:_ 
+* _Technical Comfort:_ 
+* _Job Title:_ AP Biology Teacher
+
+__Backstory__ _Tell us a bit about their responsibilities and interests._ Jeen is married to Keith Brown,...
+
+__Motivations__ _How have they found or heard about the website/service? Why would they be interested?_ 
+
+__Goals__ _What do they want to get out of this service? What are they aiming to achieve?_ 
+
+__Barriers__ _What would annoy them as they use it?_ 
+
+__Quote__ _We’ll know we’ve done a good job when this persona tells us:_ 
+
+
 ## Product Backlog
 Curriculum Crawler current product backlog is available to our Scrum Team members and management at [Trello](https://trello.com/b/iLxDKgHT/agile-sprint-board)
 
