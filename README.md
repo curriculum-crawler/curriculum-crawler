@@ -27,7 +27,7 @@ Curriculum Crawler current product backlog is available to our Scrum Team member
 - Scrum Master / Developer (Back End) / DevOps: Prity Hutchinson
 - Product Owner / Developer (Front End): Edwin Lagos
 - Developer (Back end) / Meeting Facilitator / DevOps: Keith Brown
-- Developer (Back end) : Jenn Brown
+- Developer (Back end) : Hemal Shah
 - Developer (Front End) / UX Designer: Wa'il Choudar
 
 ## More Info
