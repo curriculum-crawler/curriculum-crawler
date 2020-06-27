@@ -1,27 +1,17 @@
 # Curriculum Crawler
 
-## Stakeholder
-### Jenn Brown
-
-* _Age:_ 
-* _Gender:_ female
-* _Location:_ 
-* _Technical Comfort:_ 
-* _Job Title:_ AP Biology Teacher
-
-__Backstory__ _Tell us a bit about their responsibilities and interests._ Jeen is married to Keith Brown,...
-
-__Motivations__ _How have they found or heard about the website/service? Why would they be interested?_ 
-
-__Goals__ _What do they want to get out of this service? What are they aiming to achieve?_ 
-
-__Barriers__ _What would annoy them as they use it?_ 
-
-__Quote__ _We’ll know we’ve done a good job when this persona tells us:_ 
+## Stakeholders
+* Teachers - Teachers face competing priorities and time management to cover all relevant curriculum within a school year.
+* Dean of curriculum - Reducing overlapping topics through multiple curriculums can help optimize teachers' time, and add value to students' learning calendar.
+* Principal - All of the above allows Principals to strategize staffing and allow parents to follow clear learning projections.
+* Students - Students gain knowledge in order of learning, which keeps prequisites in check through cross curriculums, without wasting time on duplicated topics through multiple classes
+* Parents - Parents can feel confident knowing that the children have organized education levels of learning.
 
 ## Product Iteration (Summer 2020)
 * __Name:__ Curriculum Crawler
-* __Product Iteration Near Vision:__ Curriculum Crawler is a software platform to facilitate ...[add more]
+* __Product Iteration Near Vision:__ Curriculum Crawler is a software platform to facilitate, support, and encourage 
+neighbors helping neighbors. Through CCT's highly localizable site templates and features, community organizers can 
+easily customize their site to raise awareness, harness membership, and communicate tailored services to those in need.
 * __Key Architecture:__ 
   * Infrastructure: Google Cloud?
   * Persistence: [missing]
