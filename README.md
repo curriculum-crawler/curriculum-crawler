@@ -1,11 +1,11 @@
 # Curriculum Crawler
 
 ## Stakeholders
-* Teachers - Teachers face competing priorities and time management to cover all relevant curriculum within a school year.
-* Dean of curriculum - Reducing overlapping topics through multiple curriculums can help optimize teachers' time, and add value to students' learning calendar.
-* Principal - All of the above allows Principals to strategize staffing and allow parents to follow clear learning projections.
-* Students - Students gain knowledge in order of learning, which keeps prequisites in check through cross curriculums, without wasting time on duplicated topics through multiple classes
-* Parents - Parents can feel confident knowing that the children have organized education levels of learning.
+* __Teachers:__ Teachers face competing priorities and time management to cover all relevant curriculum within a school year.
+* __Dean of curriculum:__ Reducing overlapping topics through multiple curriculums can help optimize teachers' time, and add value to students' learning calendar.
+* __Principal:__ All of the above allows Principals to strategize staffing and allow parents to follow clear learning projections.
+* __Students:__ Students gain knowledge in order of learning, which keeps prequisites in check through cross curriculums, without wasting time on duplicated topics through multiple classes
+* __Parents:__ Parents can feel confident knowing that the children have organized education levels of learning.
 
 ## Product Iteration (Summer 2020)
 * __Name:__ Curriculum Crawler
