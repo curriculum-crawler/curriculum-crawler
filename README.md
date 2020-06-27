@@ -28,9 +28,7 @@ __Quote__ _We’ll know we’ve done a good job when this persona tells us:_
 
 ## Product Iteration (Summer 2020)
 * __Name:__ Curriculum Crawler
-* __Product Iteration Near Vision:__ Curriculum Crawler is a software platform to facilitate, support, and encourage 
-neighbors helping neighbors. Through CCT's highly localizable site templates and features, community organizers can 
-easily customize their site to raise awareness, harness membership, and communicate tailored services to those in need.
+* __Product Iteration Near Vision:__ Curriculum Crawler is a [add more]
 * __Key Architecture:__ 
   * Infrastructure: Google Cloud?
   * Persistence: [missing]
