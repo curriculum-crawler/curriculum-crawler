@@ -28,7 +28,8 @@ __Quote:__ "That will work" or "That works." or "That doesn't suck."
 
 ## Product Iteration (Summer 2020)
 * __Name:__ Curriculum Crawler
-* __Product Iteration Near Vision:__ Curriculum Crawler is a [add more]
+* __Product Iteration Near Vision:__ Curriculum Crawler is a tool to facilitate Cross-Curricular work for teachers.
+* __Product Iteration Far Vision:__ Curriculum Crawler is a tool to empower Interdisciplinary Learning. 
 * __Key Architecture:__ 
   * Infrastructure: Google Cloud?
   * Persistence: [missing]
