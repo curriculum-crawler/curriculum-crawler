@@ -43,9 +43,9 @@ Curriculum Crawler current product backlog is available to our Scrum Team member
 The product backlog is ordered with items critical for starting development on top. They are listed in descending priority on Trello.  
 
 ## Definition of Ready
-  * Title
-  * Architecture
-  * Acceptance criteria
+ * The conditions of satisfaction have been fully identified for the story.
+ * The story has been estimated and is under a certain size. 
+ * All external dependencies have been resolved, whether the dependency was on another team or on an outside vendor.
 
 ## Definition of Done
   * Acceptance criteria completed
