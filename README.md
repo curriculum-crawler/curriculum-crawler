@@ -48,10 +48,10 @@ The product backlog is ordered with items critical for starting development on t
   * All external dependencies have been resolved, whether the dependency was on another team or on an outside vendor.
 
 ## Definition of Done
-  * Acceptance criteria completed
-  * W3C markup validated
-  * Cross browser/device testing
-  * Product Owner acceptance
+  * Tests passed
+  * Code reviewed
+  * Acceptance criteria met
+  * Product Owner accepts the User Story
 
 ## Scrum Team
 - Scrum Master / Developer (Back End) / DevOps: Prity Hutchinson
