@@ -8,23 +8,23 @@
 * __Parents:__ Parents can feel confident knowing that the children have organized education levels of learning.
 
 ## Stakeholder Persona
-### Jenn Brown
+### Jennifer Brown
 
-* _Age:_ 
+* _Age:_ 43
 * _Gender:_ female
-* _Location:_ 
-* _Technical Comfort:_ 
+* _Location:_ Dedham, Massachusetts 
+* _Technical Comfort:_ Advanced
 * _Job Title:_ AP Biology Teacher
 
-__Backstory__ _Tell us a bit about their responsibilities and interests._ Jeen is married to Keith Brown,...
+__Backstory:__ Jennifer is married to Keith Brown. She is the Department Chair of the Science Department and teaches Biology and AP Biology. Jennifer has a post-graduate degree in education, working with curriculum design. She leads the redesign of the Seventh and Eighth-grade Science curriculum as an ongoing project at the school. Her job requires her to work closely with the Dean of Curriculum and coordinate with other departments at the school
 
-__Motivations__ _How have they found or heard about the website/service? Why would they be interested?_ 
+__Motivations:__ She would have found the service by a search after working with competing products that don't deliver features she requires. Additionally, alternative products would are cost-prohibitive to use.    
 
-__Goals__ _What do they want to get out of this service? What are they aiming to achieve?_ 
+__Goals:__ A prime requirement for her is cross-discipline alignment. Cross-discipline alignment is essential so that there is an understanding of what topics the other departments teach. She would recommend our service to all the departments at her school, leading to the school maximizing coordination amongst the departments.
 
-__Barriers__ _What would annoy them as they use it?_ 
+__Barriers:__ A significant barrier will be importing data, having to copy/paste from one application to another can become tedious and lead to rage-quit. 
 
-__Quote__ _We’ll know we’ve done a good job when this persona tells us:_ 
+__Quote:__ "That will work" or "That works." or "That doesn't suck."
 
 ## Product Iteration (Summer 2020)
 * __Name:__ Curriculum Crawler
@@ -53,4 +53,4 @@ We can also be found in Canvas [Project Group 1](https://canvas.harvard.edu/cour
 
 ##### This is a final project for [Agile Software Development CSCI-E71](http://agilesoftwarecourse.org/) as part of degree requirements for  [Harvard Extension School](http://www.extension.harvard.edu/).
 
-###### Built with love in Orlando, Hong Kong, ...
+###### Built with love in Orlando, Hong Kong, Boston Area...
