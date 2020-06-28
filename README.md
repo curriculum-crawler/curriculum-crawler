@@ -37,7 +37,7 @@ Unlike Managebac and Canvas, our product will find connections between subjectâ€
   * [missing]
 
 ## Product Backlog
-Curriculum Crawler current product backlog is available to our Scrum Team members and management at [Trello](https://trello.com/b/iLxDKgHT/agile-sprint-board)
+Curriculum Crawler current product backlog is available to our Scrum Team members and management at [Trello](https://trello.com/b/iLxDKgHT/agile-sprint-board).
 The user stories are found in the description of each Trello backlog item. 
 ### Rationale for Backlog Order
 The product backlog is ordered with items critical for starting development on top. They are listed in descending priority on Trello.  
