@@ -42,6 +42,17 @@ Curriculum Crawler current product backlog is available to our Scrum Team member
 ### Rationale for Backlog Order
 [missing]
 
+## Definition of Ready
+  * Title
+  * Architecture
+  * Acceptance criteria
+
+## Definition of Done
+  * Acceptance criteria completed
+  * W3C markup validated
+  * Cross browser/device testing
+  * Product Owner acceptance
+
 ## Scrum Team
 - Scrum Master / Developer (Back End) / DevOps: Prity Hutchinson
 - Product Owner / Developer (Front End): Edwin Lagos
