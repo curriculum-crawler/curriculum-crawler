@@ -29,7 +29,8 @@ __Quote:__ "That will work" or "That works." or "That doesn't suck."
 ## Product Iteration (Summer 2020)
 * __Name:__ Curriculum Crawler
 * __Product Iteration Near Vision:__ Curriculum Crawler is a tool to facilitate Cross-Curricular work for teachers.
-* __Product Iteration Far Vision:__ Curriculum Crawler is a tool to empower Interdisciplinary Learning. 
+* __Product Iteration Far Vision:__ The Curriculum Crawler is a search engine for teachers and curriculum coordinators that empowers interdisciplinary learning.
+Unlike Managebac and Canvas, our product will find connections between subject’s written curriculum and connect teachers to allow them to collaborate. 
 * __Key Architecture:__ 
   * Infrastructure: Google Cloud?
   * Persistence: [missing]
