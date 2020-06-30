@@ -43,15 +43,15 @@ The user stories are found in the description of each Trello backlog item.
 The product backlog is ordered with items critical for starting development on top. They are listed in descending priority on Trello.  
 
 ## Definition of Ready
-  * The conditions of satisfaction have been fully identified for the story.
-  * The story has been estimated and is under a certain size.
+  * Every Backlog Item has a title
+  * Every Backlog Item has a opening sentence
+  * Every Backlog Item has been Estimated in story points
   * All external dependencies have been resolved, whether the dependency was on another team or on an outside vendor.
 
 ## Definition of Done
   * Tests passed
   * Code reviewed
   * Acceptance criteria met
-  * Product Owner accepts the User Story
 
 ## Scrum Team
 - Scrum Master / Developer (Back End) / DevOps: Prity Hutchinson
