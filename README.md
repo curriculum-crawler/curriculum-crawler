@@ -52,6 +52,9 @@ The product backlog is ordered with items critical for starting development on t
   * Tests passed
   * Code reviewed
   * Acceptance criteria met
+  
+## Estimation
+  * The team performed a Poker Point Activity on June 30, 2020. Only the development team members participated in the Poker Point Activity. Prity and Edwin participated as development team members while participating in point estimation while offering Scrum Master and Product Owner duties during Estimation.
 
 ## Scrum Team
 - Scrum Master / Developer (Back End) / DevOps: Prity Hutchinson
