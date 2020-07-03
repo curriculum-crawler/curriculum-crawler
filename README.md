@@ -66,29 +66,29 @@ The product backlog is ordered with items critical for starting development on t
 # Daily Scrum
 ## Friday July 2, 2020
 - Keith Brown
--- In the last 24 hours I
---- Completed the base implementation for receiving REST calls
---- Started implemention of the Upload Document API
--- In the next 24 hours I
---- Complete the Upload Document API
--- Do I have any impediments
---- I do not have any impediments.
+    - In the last 24 hours I
+        - Completed the base implementation for receiving REST calls
+        - Started implemention of the Upload Document API
+    - In the next 24 hours I
+        - Complete the Upload Document API
+    - Do I have any impediments
+        - I do not have any impediments.
 - Prity Hutchinson
--- In the last 24 hours I
--- In the next 24 hours I
--- Do I have any impediments
+    - In the last 24 hours I
+    - In the next 24 hours I
+    - Do I have any impediments
 - Edwin Lagos
--- In the last 24 hours I
--- In the next 24 hours I
--- Do I have any impediments
+    - In the last 24 hours I
+    - In the next 24 hours I
+    - Do I have any impediments
 - Hemal Shah
--- In the last 24 hours I
--- In the next 24 hours I
--- Do I have any impediments
+    - In the last 24 hours I
+    - In the next 24 hours I
+    - Do I have any impediments
 - Wail Hermes
--- In the last 24 hours I
--- In the next 24 hours I
--- Do I have any impediments
+    - In the last 24 hours I
+    - In the next 24 hours I
+    - Do I have any impediments
 
 # Test First Strategy
 - All Backend Server tests are executed on every checkin to Master at https://github.com/curriculum-crawler/curriculum-crawler/actions (Java CI with Gradle) 
