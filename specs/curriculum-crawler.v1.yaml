@@ -1,0 +1,287 @@
+openapi: 3.0.0
+info:
+  title: curriculum crawler
+  version: '1.0'
+  license:
+    name: MIT
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /document:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Document'
+      operationId: getDocuments
+      description: Retrieves a list of all Documents
+      parameters: []
+    post:
+      summary: ''
+      operationId: createDocument
+      responses:
+        '201':
+          description: Created
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '500':
+          description: Internal Server Error
+        '501':
+          description: Not Implemented
+        '502':
+          description: Bad Gateway
+        '503':
+          description: Service Unavailable
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Document'
+      description: Uploads a document
+    parameters: []
+  '/document/{id}':
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+        description: UUID to retreive
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Document'
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+        '501':
+          description: Not Implemented
+        '502':
+          description: Bad Gateway
+        '503':
+          description: Service Unavailable
+      operationId: getByDocumentId
+      description: Retreives a document by uuid
+    put:
+      summary: ''
+      operationId: updateDocument
+      responses:
+        '202':
+          description: Accepted
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+        '501':
+          description: Not Implemented
+        '502':
+          description: Bad Gateway
+        '503':
+          description: Service Unavailable
+      description: Updates a document
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Document'
+        description: ''
+    delete:
+      summary: ''
+      operationId: deleteDocument
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+        '501':
+          description: Not Implemented
+        '502':
+          description: Bad Gateway
+        '503':
+          description: Service Unavailable
+      description: Deletes a Document
+  /user:
+    post:
+      summary: ''
+      operationId: createUser
+      responses:
+        '201':
+          description: Created
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+        '501':
+          description: Not Implemented
+        '503':
+          description: Service Unavailable
+      description: Create user
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+  '/user/{username}':
+    get:
+      description: Retreive User by Username
+      operationId: getUserByUsername
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+        '501':
+          description: Not Implemented
+        '502':
+          description: Bad Gateway
+        '503':
+          description: Service Unavailable
+    put:
+      operationId: updateUser
+      description: Update User
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+        description: ''
+      responses:
+        '202':
+          description: Accepted
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+        '501':
+          description: Not Implemented
+        '502':
+          description: Bad Gateway
+        '503':
+          description: Service Unavailable
+    delete:
+      operationId: deleteUser
+      description: Delete User
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+        '501':
+          description: Not Implemented
+        '502':
+          description: Bad Gateway
+        '503':
+          description: Service Unavailable
+    parameters:
+      - schema:
+          type: string
+        name: username
+        in: path
+        required: true
+        description: Username
+components:
+  schemas:
+    Document:
+      title: Document
+      type: object
+      x-examples:
+        example-1: {}
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: UUID of Document
+        filename:
+          type: string
+        filetype:
+          type: string
+          description: MIME-TYPE of document
+        content:
+          type: string
+          format: binary
+          description: Binary data of file
+        storage-uri:
+          type: string
+          format: uri
+          description: Internal Storage Location
+      required:
+        - filename
+    User:
+      title: User
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        username:
+          type: string
