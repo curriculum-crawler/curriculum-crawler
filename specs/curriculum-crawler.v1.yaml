@@ -4,13 +4,16 @@ info:
   version: '1.0'
   license:
     name: MIT
+    url: 'https://opensource.org/licenses/MIT'
+  description: ''
 servers:
-  - url: 'http://localhost:3000'
+  - url: 'http://54.86.180.15:8080'
 paths:
   /document:
     get:
-      summary: Your GET endpoint
-      tags: []
+      summary: Get List of Documents
+      tags:
+        - document
       responses:
         '200':
           description: OK
@@ -24,11 +27,15 @@ paths:
       description: Retrieves a list of all Documents
       parameters: []
     post:
-      summary: ''
+      summary: Create Document
       operationId: createDocument
       responses:
         '201':
           description: Created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Document'
         '400':
           description: Bad Request
         '401':
@@ -48,6 +55,7 @@ paths:
           application/json:
             schema:
               $ref: '#/components/schemas/Document'
+        description: Document to upload
       description: Uploads a document
     parameters: []
   '/document/{id}':
@@ -59,8 +67,9 @@ paths:
         required: true
         description: UUID to retreive
     get:
-      summary: Your GET endpoint
-      tags: []
+      summary: Retreive Document
+      tags:
+        - document
       responses:
         '200':
           description: OK
@@ -87,11 +96,15 @@ paths:
       operationId: getByDocumentId
       description: Retreives a document by uuid
     put:
-      summary: ''
+      summary: Update Document
       operationId: updateDocument
       responses:
         '202':
           description: Accepted
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Document'
         '400':
           description: Bad Request
         '401':
@@ -114,9 +127,9 @@ paths:
           application/json:
             schema:
               $ref: '#/components/schemas/Document'
-        description: ''
+        description: Updated document
     delete:
-      summary: ''
+      summary: Delete Document
       operationId: deleteDocument
       responses:
         '200':
@@ -143,8 +156,7 @@ components:
     Document:
       title: Document
       type: object
-      x-examples:
-        example-1: {}
+      x-examples: {}
       properties:
         id:
           type: string

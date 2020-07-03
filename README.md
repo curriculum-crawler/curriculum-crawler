@@ -64,8 +64,15 @@ The product backlog is ordered with items critical for starting development on t
 - Developer (Front End) / UX Designer: Wa'il Choudar
 
 # Test First Strategy
-- The API Backend Server was build using a TDD Stragegy.
--- For the Initial Infrastructure work to prove the Server was working the following tests were created first
+- All Backend Server tests are executed on every checkin to Master at https://github.com/curriculum-crawler/curriculum-crawler/actions (Java CI with Gradle) 
+- To view the tests executions 
+    1. Select the "Java CI with Gradle" workflow
+    2. Select a commit
+    3. Select the "build" which will populate a tree structure in the center of the page
+    4. Expand the "Build with Gradle" to view the Gradle build log which will display the Unit Tests output (output will be similar as displayed below in the [Unit Test Run](#unit-test-run) Section)
+- The API Backend Server was build using a TDD Stragegy. 
+-- Created first were the for the initial infrastructure work to prove the Server was working.
+-- The second set of tests were the Upload Document tests.
 
 ## Unit Tests
 Test Class | Behavior Tested
@@ -75,7 +82,7 @@ Test Class | Behavior Tested
 [edu.harvard.cscis71.curriculum.api.HttpRequestTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/api//HttpRequestTest.java) | Unit test starting server asserting the behavior or the application
 [edu.harvard.cscis71.curriculum.api.WebLayerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/api/WebLayerTest.java) | Unit test validating Spring application context starts but without server
 
-## Unit Test Run
+## Unit Test Run[](#unit-test-run)
 ```shell script
 gradle clean build                                                                                                                                                                                                                                                                                                                                                   ST 1   master
 executing gradlew instead of gradle
