@@ -69,10 +69,10 @@ The product backlog is ordered with items critical for starting development on t
 
 Test Class | Behavior Tested
 ---------- | ---------------
-[edu.harvard.cscis71.curriculum.CurriculumApplicationTests.java](backend/src/main/test/edu/harvard/csci71/curriculum/CurriculumApplicationTests.java) | Initial test to validate that the spring contexts load
-[edu.harvard.cscis71.curriculum.api.HomeControllerTest.java](backend/src/main/test/edu/harvard/csci71/curriculum/api/HomeControllerTest.java) | Unit test without starting server to validate Root Endpoint
-[edu.harvard.cscis71.curriculum.api.HttpRequestTest.java](backend/src/main/test/edu/harvard/csci71/curriculum/api/HttpRequestTest.java) | Unit test starting server asserting the behavior or the application
-[edu.harvard.cscis71.curriculum.api.WebLayerTest.java](backend/src/main/test/edu/harvard/csci71/curriculum/api/WebLayerTest.java) | Unit test validating Spring application context starts but without server
+[edu.harvard.cscis71.curriculum.CurriculumApplicationTests.java](backend/src/test/java/edu/harvard/cscis71/curriculum/CurriculumApplicationTests.java) | Initial test to validate that the spring contexts load
+[edu.harvard.cscis71.curriculum.api.HomeControllerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/api/HomeControllerTest.java) | Unit test without starting server to validate Root Endpoint
+[edu.harvard.cscis71.curriculum.api.HttpRequestTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/api//HttpRequestTest.java) | Unit test starting server asserting the behavior or the application
+[edu.harvard.cscis71.curriculum.api.WebLayerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/api/WebLayerTest.java) | Unit test validating Spring application context starts but without server
 
 ## More Info
 
