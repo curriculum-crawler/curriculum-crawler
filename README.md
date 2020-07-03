@@ -63,6 +63,17 @@ The product backlog is ordered with items critical for starting development on t
 - Developer (Back end) : Hemal Shah
 - Developer (Front End) / UX Designer: Wa'il Choudar
 
+# Test First Strategy
+- The API Backend Server was build using a TDD Stragegy.
+-- For the Initial Infrastructure work to prove the Server was working the following tests were created first
+
+Test Class | Behavior Tested
+---------- | ---------------
+[edu.harvard.cscis71.curriculum.CurriculumApplicationTests.java](backend/src/main/test/edu/harvard/csci71/curriculum/CurriculumApplicationTests.java) | Initial test to validate that the spring contexts load
+[edu.harvard.cscis71.curriculum.api.HomeControllerTest.java](backend/src/main/test/edu/harvard/csci71/curriculum/api/HomeControllerTest.java) | Unit test without starting server to validate Root Endpoint
+[edu.harvard.cscis71.curriculum.api.HttpRequestTest.java](backend/src/main/test/edu/harvard/csci71/curriculum/api/HttpRequestTest.java) | Unit test starting server asserting the behavior or the application
+[edu.harvard.cscis71.curriculum.api.WebLayerTest.java](backend/src/main/test/edu/harvard/csci71/curriculum/api/WebLayerTest.java) | Unit test validating Spring application context starts but without server
+
 ## More Info
 
 We can also be found in Canvas [Project Group 1](https://canvas.harvard.edu/courses/72401/groups) and on our [Slack](https://agilesoftwarecourse.slack.com/archives/C015ND86AJ3) channel. Our Kanban board can be found at [Trello](https://trello.com/b/iLxDKgHT/agile-sprint-board).
