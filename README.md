@@ -55,13 +55,40 @@ The product backlog is ordered with items critical for starting development on t
   
 ## Initial Estimation
   The team performed a Poker Point Activity on June 30, 2020. Only the development team members participated in the Poker Point Activity. Prity and Edwin participated as development team members while participating in point estimation while offering Scrum Master and Product Owner duties during Estimation. On each item in the backlog there is an Estimation field with the story points associated.
-
+  
 ## Scrum Team
 - Scrum Master / Developer (Back End) / DevOps: Prity Hutchinson
 - Product Owner / Developer (Front End): Edwin Lagos
 - Developer (Back end) / Meeting Facilitator / DevOps: Keith Brown
 - Developer (Back end) : Hemal Shah
 - Developer (Front End) / UX Designer: Wa'il Choudar
+
+# Daily Scrum
+## Friday July 2, 2020
+- Keith Brown
+-- In the last 24 hours I
+--- Completed the base implementation for receiving REST calls
+--- Started implemention of the Upload Document API
+-- In the next 24 hours I
+--- Complete the Upload Document API
+-- Do I have any impediments
+--- I do not have any impediments.
+- Prity Hutchinson
+-- In the last 24 hours I
+-- In the next 24 hours I
+-- Do I have any impediments
+- Edwin Lagos
+-- In the last 24 hours I
+-- In the next 24 hours I
+-- Do I have any impediments
+- Hemal Shah
+-- In the last 24 hours I
+-- In the next 24 hours I
+-- Do I have any impediments
+- Wail Hermes
+-- In the last 24 hours I
+-- In the next 24 hours I
+-- Do I have any impediments
 
 # Test First Strategy
 - All Backend Server tests are executed on every checkin to Master at https://github.com/curriculum-crawler/curriculum-crawler/actions (Java CI with Gradle) 
