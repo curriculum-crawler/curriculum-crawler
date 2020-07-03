@@ -67,6 +67,7 @@ The product backlog is ordered with items critical for starting development on t
 - The API Backend Server was build using a TDD Stragegy.
 -- For the Initial Infrastructure work to prove the Server was working the following tests were created first
 
+## Unit Tests
 Test Class | Behavior Tested
 ---------- | ---------------
 [edu.harvard.cscis71.curriculum.CurriculumApplicationTests.java](backend/src/test/java/edu/harvard/cscis71/curriculum/CurriculumApplicationTests.java) | Initial test to validate that the spring contexts load
@@ -74,6 +75,44 @@ Test Class | Behavior Tested
 [edu.harvard.cscis71.curriculum.api.HttpRequestTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/api//HttpRequestTest.java) | Unit test starting server asserting the behavior or the application
 [edu.harvard.cscis71.curriculum.api.WebLayerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/api/WebLayerTest.java) | Unit test validating Spring application context starts but without server
 
+## Unit Test Run
+```shell script
+gradle clean build                                                                                                                                                                                                                                                                                                                                                   ST 1   master
+executing gradlew instead of gradle
+
+> Task :test
+
+CurriculumApplicationTests > contextLoads() STARTED
+
+CurriculumApplicationTests > contextLoads() PASSED
+
+HttpRequestTest > rootRequestShouldReturnOK() STARTED
+
+HttpRequestTest > rootRequestShouldReturnOK() PASSED
+
+HttpRequestTest > homeRequestWebClientShouldReturnOKResponse() STARTED
+
+HttpRequestTest > homeRequestWebClientShouldReturnOKResponse() PASSED
+
+HttpRequestTest > contextLoads() STARTED
+
+HttpRequestTest > contextLoads() PASSED
+
+HomeControllerTest > shouldReturnOKResponse() STARTED
+
+HomeControllerTest > shouldReturnOKResponse() PASSED
+
+WebLayerTest > shouldReturnOKResponse() STARTED
+
+WebLayerTest > shouldReturnOKResponse() PASSED
+2020-07-03 14:19:47.087  INFO 14798 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-03 14:19:47.088  INFO 14798 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-03 14:19:47.131  INFO 14798 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-03 14:19:49.159  INFO 14798 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+BUILD SUCCESSFUL in 12s
+6 actionable tasks: 6 executed
+```
 ## More Info
 
 We can also be found in Canvas [Project Group 1](https://canvas.harvard.edu/courses/72401/groups) and on our [Slack](https://agilesoftwarecourse.slack.com/archives/C015ND86AJ3) channel. Our Kanban board can be found at [Trello](https://trello.com/b/iLxDKgHT/agile-sprint-board).
