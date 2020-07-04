@@ -1,4 +1,34 @@
+- [Curriculum Crawler](#curriculum-crawler)
+- [Project Information](#project-information)
+  - [Scrum Team](#scrum-team)
+  - [Stakeholders](#stakeholders)
+  - [Stakeholder Persona](#stakeholder-persona)
+    - [Jennifer Brown](#jennifer-brown)
+  - [Product Iteration (Summer 2020)](#product-iteration-summer-2020)
+  - [Product Backlog](#product-backlog)
+    - [Rationale for Backlog Order](#rationale-for-backlog-order)
+  - [Definition of Ready](#definition-of-ready)
+  - [Definition of Done](#definition-of-done)
+  - [Initial Estimation](#initial-estimation)
+  - [Sprint 1](#sprint-1)
+  - [Daily Scrums](#daily-scrums)
+    - [Friday July 2, 2020](#friday-july-2-2020)
+- [Test Driven Development](#test-driven-development)
+  - [Unit Tests](#unit-tests)
+  - [Unit Test Run](#unit-test-run)
+    - [Backend Unit Tests](#backend-unit-tests)
+    - [Front End Unit Tests](#front-end-unit-tests)
+- [More Info](#more-info)
+
 # Curriculum Crawler
+
+# Project Information
+## Scrum Team
+- Scrum Master / Developer (Back End) / DevOps: Prity Hutchinson
+- Product Owner / Developer (Front End): Edwin Lagos
+- Developer (Back end) / Meeting Facilitator / DevOps: Keith Brown
+- Developer (Back end) : Hemal Shah
+- Developer (Front End) / UX Designer: Wa'il Choudar
 
 ## Stakeholders
 * __Teachers:__ Teachers face competing priorities and time management to cover all relevant curriculum within a school year.
@@ -32,9 +62,11 @@ __Quote:__ "That will work" or "That works." or "That doesn't suck."
 * __Product Iteration Near Vision:__ The Curriculum Crawler is a search engine for teachers and curriculum coordinators that empowers interdisciplinary learning.
 Unlike Managebac and Canvas, our product will find connections between subject’s written curriculum and connect teachers to allow them to collaborate. 
 * __Key Architecture:__ 
-  * Infrastructure: Google Cloud?
-  * Persistence: [missing]
-  * [missing]
+  * Infrastructure: 
+    * Heroku AWS 
+    * EC2
+  * Persistence:
+    * Elasticsearch
 
 ## Product Backlog
 Curriculum Crawler current product backlog is available to our Scrum Team members and management at [Trello](https://trello.com/b/iLxDKgHT/agile-sprint-board).
@@ -56,34 +88,25 @@ The product backlog is ordered with items critical for starting development on t
 ## Initial Estimation
   The team performed a Poker Point Activity on June 30, 2020. Only the development team members participated in the Poker Point Activity. Prity and Edwin participated as development team members while participating in point estimation while offering Scrum Master and Product Owner duties during Estimation. On each item in the backlog there is an Estimation field with the story points associated.
   
-## Scrum Team
-- Scrum Master / Developer (Back End) / DevOps: Prity Hutchinson
-- Product Owner / Developer (Front End): Edwin Lagos
-- Developer (Back end) / Meeting Facilitator / DevOps: Keith Brown
-- Developer (Back end) : Hemal Shah
-- Developer (Front End) / UX Designer: Wa'il Choudar
-
-# Sprint 1
-The Spring Kanban board is at https://trello.com/b/BEeWOpo7/curriculum-crawler-sprint-kanban-board
+## Sprint 1
+The Sprint Kanban board is at https://trello.com/b/BEeWOpo7/curriculum-crawler-sprint-kanban-board
 
 ![Sprint Review Invitation](images/sprint-1-review-invite.jpg)
 
 
-# Daily Scrum
+## Daily Scrums
 ![Sprint Review Invitation](images/daily-scrum-invite.jpg)
 
 
-## Friday July 2, 2020
-Sprint Status | Meeting Invite
-------------- | --------------
-- Keith Brown |
-    - In the last 24 hours I |
-        - Completed the base implementation for receiving REST calls |
-        - Started implemention of the Upload Document API |
-    - In the next 24 hours I |
-        - Complete the Upload Document API |
+### Friday July 2, 2020
+- Keith Brown
+    - In the last 24 hours I
+        - Completed the base implementation for receiving REST calls
+        - Started implemention of the Upload Document API
+    - In the next 24 hours I
+        - Complete the Upload Document API
     - Do I have any impediments
-        - I do not have any impediments. |
+        - I do not have any impediments.
 - Prity Hutchinson
     - In the last 24 hours I
     - In the next 24 hours I
@@ -107,7 +130,7 @@ Sprint Status | Meeting Invite
     - In the next 24 hours I
     - Do I have any impediments
 
-# Test First Strategy
+# Test Driven Development
 - All Backend Server tests are executed on every checkin to Master at https://github.com/curriculum-crawler/curriculum-crawler/actions (Java CI with Gradle) 
 - To view the tests executions 
     1. Select the "Java CI with Gradle" workflow
@@ -129,9 +152,10 @@ Test Class | Behavior Tested
 [frontend.test.js](frontend/cc_frontend/tests/frontend.test.js) | Unit tests that validate the correct rendering of React components for the UI
 
 
-## Unit Test Run[](#unit-test-run)
-```shell script
-gradle clean build                                                                                                                                                                                                                                                                                                                                                   ST 1   master
+## Unit Test Run
+### Backend Unit Tests
+```bash
+$> gradle clean build 
 executing gradlew instead of gradle
 
 > Task :test
@@ -167,8 +191,8 @@ WebLayerTest > shouldReturnOKResponse() PASSED
 BUILD SUCCESSFUL in 12s
 6 actionable tasks: 6 executed
 ```
-
-```
+### Front End Unit Tests
+```bash
 jest "--verbose"
 
  PASS  tests/sum.test.js
@@ -191,10 +215,11 @@ Snapshots:   0 total
 Time:        1.873 s, estimated 2 s
 Ran all test suites.
 ```
-## More Info
+
+# More Info
 
 We can also be found in Canvas [Project Group 1](https://canvas.harvard.edu/courses/72401/groups) and on our [Slack](https://agilesoftwarecourse.slack.com/archives/C015ND86AJ3) channel. Our Kanban board can be found at [Trello](https://trello.com/b/iLxDKgHT/agile-sprint-board).
 
-##### This is a final project for [Agile Software Development CSCI-E71](http://agilesoftwarecourse.org/) as part of degree requirements for  [Harvard Extension School](http://www.extension.harvard.edu/).
+***This is a final project for [Agile Software Development CSCI-E71](http://agilesoftwarecourse.org/) as part of degree requirements for  [Harvard Extension School](http://www.extension.harvard.edu/).***
 
-###### Built with love in Orlando, Hong Kong, Boston Area...
+***Built with love in Orlando, Hong Kong, Boston Area...***
