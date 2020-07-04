@@ -63,7 +63,11 @@ The product backlog is ordered with items critical for starting development on t
 - Developer (Back end) : Hemal Shah
 - Developer (Front End) / UX Designer: Wa'il Choudar
 
+# Sprint 1
+![Sprint Review Invitation](images/sprint-1-review-invite.png width=100)
+
 # Daily Scrum
+![Sprint Review Invitation](images/daily-scrum-invite.png width=100)
 ## Friday July 2, 2020
 - Keith Brown
     - In the last 24 hours I
