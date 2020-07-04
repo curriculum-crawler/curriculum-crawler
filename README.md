@@ -79,8 +79,14 @@ The product backlog is ordered with items critical for starting development on t
     - Do I have any impediments
 - Edwin Lagos
     - In the last 24 hours I
+        - Completed the base implementation of the UI for the searching functionality.
+        - Completed the creation of the UI for the search results UI.
+        - Completed the tests for the UI components. 
     - In the next 24 hours I
+        - Will finish documentation for the UI. 
+        - Implement the upload API within the UI, if available. 
     - Do I have any impediments
+        - I don't have any impediments. 
 - Hemal Shah
     - In the last 24 hours I
     - In the next 24 hours I
@@ -108,6 +114,9 @@ Test Class | Behavior Tested
 [edu.harvard.cscis71.curriculum.api.HomeControllerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/api/HomeControllerTest.java) | Unit test without starting server to validate Root Endpoint
 [edu.harvard.cscis71.curriculum.api.HttpRequestTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/api//HttpRequestTest.java) | Unit test starting server asserting the behavior or the application
 [edu.harvard.cscis71.curriculum.api.WebLayerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/api/WebLayerTest.java) | Unit test validating Spring application context starts but without server
+[sum.test.js](frontend/cc_frontend/tests/sum.test.js) | Initial validation that testing suite is able to find components. 
+[frontend.test.js](frontend/cc_frontend/tests/frontend.test.js) | Unit tests that validate the correct rendering of React components for the UI
+
 
 ## Unit Test Run[](#unit-test-run)
 ```shell script
@@ -146,6 +155,30 @@ WebLayerTest > shouldReturnOKResponse() PASSED
 
 BUILD SUCCESSFUL in 12s
 6 actionable tasks: 6 executed
+```
+
+```
+jest "--verbose"
+
+ PASS  tests/sum.test.js
+  ✓ adds 1 + 2 to equal 3 (2 ms)
+  ✓ adds 5 + 2 to equal 7
+
+ PASS  tests/frontend.test.js
+  ✓ renders correct greeting (29 ms)
+  ✓ will render a search bar as an input group (5 ms)
+  ✓ will render a search bar with a placeholder message (5 ms)
+  ✓ will render a field to upload files (4 ms)
+  ✓ will show placeholder text in a custom file input field (3 ms)
+  ✓ will render a field to upload files (4 ms)
+  ✓ search cards will show the author's name and email (3 ms)
+  ✓ search card will show the the curriculum's description as text (5 ms)
+
+Test Suites: 2 passed, 2 total
+Tests:       10 passed, 10 total
+Snapshots:   0 total
+Time:        1.873 s, estimated 2 s
+Ran all test suites.
 ```
 ## More Info
 
