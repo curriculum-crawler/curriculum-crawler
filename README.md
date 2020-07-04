@@ -64,21 +64,26 @@ The product backlog is ordered with items critical for starting development on t
 - Developer (Front End) / UX Designer: Wa'il Choudar
 
 # Sprint 1
-![Sprint Review Invitation](images/sprint-1-review-invite.jpg)
 The Spring Kanban board is at https://trello.com/b/BEeWOpo7/curriculum-crawler-sprint-kanban-board
+
+![Sprint Review Invitation](images/sprint-1-review-invite.jpg)
 
 
 # Daily Scrum
 ![Sprint Review Invitation](images/daily-scrum-invite.jpg)
+
+
 ## Friday July 2, 2020
-- Keith Brown
-    - In the last 24 hours I
-        - Completed the base implementation for receiving REST calls
-        - Started implemention of the Upload Document API
-    - In the next 24 hours I
-        - Complete the Upload Document API
+Sprint Status | Meeting Invite
+------------- | --------------
+- Keith Brown |
+    - In the last 24 hours I |
+        - Completed the base implementation for receiving REST calls |
+        - Started implemention of the Upload Document API |
+    - In the next 24 hours I |
+        - Complete the Upload Document API |
     - Do I have any impediments
-        - I do not have any impediments.
+        - I do not have any impediments. |
 - Prity Hutchinson
     - In the last 24 hours I
     - In the next 24 hours I
