@@ -112,7 +112,7 @@ The Sprint Kanban board is at https://trello.com/b/BEeWOpo7/curriculum-crawler-s
 ![Sprint Review Invitation](images/daily-scrum-invite.jpg)
 
 
-### Friday July 2, 2020
+### Friday July 3, 2020
 - Keith Brown
     - In the last 24 hours I
         - Completed the base implementation for receiving REST calls
@@ -123,8 +123,14 @@ The Sprint Kanban board is at https://trello.com/b/BEeWOpo7/curriculum-crawler-s
         - I do not have any impediments.
 - Prity Hutchinson
     - In the last 24 hours I
+      - Created Powerpoint for Sprint Review, shared with PO to present.
+      - Facilitated daily scrum meeting and evaluated spring backlog.
     - In the next 24 hours I
+      - Facilitate Sprint Review meeting
+      - Facilitate Sprint Retrospective meeting
+      - Faciliate Sprint 2 planning
     - Do I have any impediments
+      - Based on Professor Kasperowski's feedback, I've requested a timeslot for the team to review user stories but have not heard back. This guidance will be critical for Team 1 to submit Part 2 of the project, with the validation that documentation of user stories/tasks meet his expectations.
 - Edwin Lagos
     - In the last 24 hours I
         - Completed the base implementation of the UI for the searching functionality.
