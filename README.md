@@ -11,7 +11,7 @@
   - [Definition of Done](#definition-of-done)
   - [Initial Estimation](#initial-estimation)
   - [Sprint 1](#sprint-1)
-  - [Burndown Chart](#Burndown Chart)
+  - [Burndown Chart](#Burndown-Chart)
   - [Daily Scrums](#daily-scrums)
     - [Friday July 2, 2020](#friday-july-2-2020)
 - [Test Driven Development](#test-driven-development)
