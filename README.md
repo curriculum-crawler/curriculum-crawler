@@ -93,6 +93,20 @@ The Sprint Kanban board is at https://trello.com/b/BEeWOpo7/curriculum-crawler-s
 
 ![Sprint Review Invitation](images/sprint-1-review-invite.jpg)
 
+## Sprint 1 Forecast 
+- Sprint 1 forecast was determined to be 11 points.
+
+## Sprint Forecast Rationale 
+- Team 1 identified the set of MVP functionality that can be completed in the 4 day sprint through this accelerated 3 week class. Keeping Sprint goal in mind, Team 1 described “what” and “how” of the sprint and its user stories. With that information, development team was able to forecast 11 points.
+
+## Sprint 1 Backlog
+- Three key tasks to provide search functionality were identified as MVP for Sprint 1. The tasks include Start page for stakeholder to log in, upload documents for management and review, and search functionality to identify overlaps of curriculum for teachers to optimize time. 
+- The aggregate size of stories is 11 points, same as a the forecast.
+- Our front-end developer had an unfortunate accident with bone fractures and another back-end developer had a conflict. For that reason, Edwin (PO) and Prity (SM) played development roles and sized the stories.
+
+## Sprint 1 Story sizes
+- The 3 stories in Sprint 1 are sized: 1, 5 and 5 points respectively. They are less than half of our forecast velocity of 11 points. As on Trello Board - https://trello.com/b/iLxDKgHT/curriculum-crawler 
+
 
 ## Daily Scrums
 ![Sprint Review Invitation](images/daily-scrum-invite.jpg)
