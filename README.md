@@ -65,6 +65,7 @@ The product backlog is ordered with items critical for starting development on t
 
 # Sprint 1
 ![Sprint Review Invitation](images/sprint-1-review-invite.jpg)
+The Spring Kanban board is at https://trello.com/b/BEeWOpo7/curriculum-crawler-sprint-kanban-board
 
 
 # Daily Scrum
