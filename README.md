@@ -11,6 +11,7 @@
   - [Definition of Done](#definition-of-done)
   - [Initial Estimation](#initial-estimation)
   - [Sprint 1](#sprint-1)
+  - [Burndown Chart](#Burndown Chart)
   - [Daily Scrums](#daily-scrums)
     - [Friday July 2, 2020](#friday-july-2-2020)
 - [Test Driven Development](#test-driven-development)
@@ -107,7 +108,8 @@ The Sprint Kanban board is at https://trello.com/b/BEeWOpo7/curriculum-crawler-s
 ## Sprint 1 Story sizes
 - The 3 stories in Sprint 1 are sized: 1, 5 and 5 points respectively. They are less than half of our forecast velocity of 11 points. As on Trello Board - https://trello.com/b/iLxDKgHT/curriculum-crawler 
 
-
+## Burndown Chart
+![alt text](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vQNo-X2gjKdnmAugHCURJ6U1weBgBkl2yiznDoslvtjUQt-6ctWIpPscKXCm-eFjeZEYZc75cJ6JHRK/pubchart?oid=883135275&format=image)
 ## Daily Scrums
 ![Sprint Review Invitation](images/daily-scrum-invite.jpg)
 
