@@ -275,10 +275,12 @@ Ran all test suites.
 ### Sprint Demo
 - The product was demonstrated to the client. The product in its current state can be found at https://curriculumcrawler.herokuapp.com/
 
+#### Frontend Demo
 ![Landing Page 1](https://github.com/curriculum-crawler/curriculum-crawler/blob/master/images/demo1-1.png)
 
 ![Landing Page 2](https://github.com/curriculum-crawler/curriculum-crawler/blob/master/images/demo1-2.png)
 
+#### Backend Demo
 ![Landing Page 3](https://github.com/curriculum-crawler/curriculum-crawler/blob/master/images/demo1-3.png)
 
 ![Landing Page 4](https://github.com/curriculum-crawler/curriculum-crawler/blob/master/images/demo1-4.png)
