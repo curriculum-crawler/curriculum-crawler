@@ -157,6 +157,9 @@ The Sprint Kanban board is at https://trello.com/b/iLxDKgHT/curriculum-crawler
     - In the next 24 hours I
     - Do I have any impediments
 
+## Impediment removal plan 
+- Meeting scheduled for 11am July 5th with Professor to resolve impediments.
+
 # Test Driven Development
 - All Backend Server tests are executed on every checkin to Master at https://github.com/curriculum-crawler/curriculum-crawler/actions (Java CI with Gradle) 
 - To view the tests executions 
