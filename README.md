@@ -251,6 +251,11 @@ Time:        1.873 s, estimated 2 s
 Ran all test suites.
 ```
 
+## Sprint 1 review
+- Review was held on 5th July 2020 with Professor Richard
+images/Sprint 1 review with Richard screenshot
+
+
 # More Info
 
 We can also be found in Canvas [Project Group 1](https://canvas.harvard.edu/courses/72401/groups) and on our [Slack](https://agilesoftwarecourse.slack.com/archives/C015ND86AJ3) channel. Our Kanban board can be found at [Trello](https://trello.com/b/iLxDKgHT/agile-sprint-board).
