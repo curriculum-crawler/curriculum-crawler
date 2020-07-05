@@ -107,7 +107,7 @@ The Sprint Kanban board is at https://trello.com/b/iLxDKgHT/curriculum-crawler
 - Our front-end developer had an unfortunate accident with bone fractures and another back-end developer had a conflict. For that reason, Edwin (PO) and Prity (SM) played development roles and sized the stories.
 
 ## Sprint 1 Backlog screenshot
-https://github.com/curriculum-crawler/curriculum-crawler/images/Sprint_1_backlog.png
+https://github.com/curriculum-crawler/curriculum-crawler/tree/master/images/Sprint_1_backlog.png
 
 ## Sprint 1 Story sizes
 - The 3 stories in Sprint 1 are sized: 1, 5 and 5 points respectively. They are less than half of our forecast velocity of 11 points. As on Trello Board - https://trello.com/b/iLxDKgHT/curriculum-crawler 
@@ -256,7 +256,7 @@ Ran all test suites.
 
 ## Sprint 1 review
 - Review was held on 5th July 2020 with Professor Richard
-- https://github.com/curriculum-crawler/curriculum-crawler/images/Sprint_1_review_with_Richard_screenshot.png
+- https://github.com/curriculum-crawler/curriculum-crawler/tree/master/images/Sprint_1_review_with_Richard_screenshot.png
 
 
 # More Info
