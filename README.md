@@ -98,6 +98,7 @@ The Sprint Kanban board is at https://trello.com/b/iLxDKgHT/curriculum-crawler
 - Sprint 1 forecast was determined to be 11 points.
 
 ## Sprint Forecast Rationale 
+- Ideally, we would have previous sprints with achievable points in a sprint to forecast appropriately.
 - Team 1 identified the set of MVP functionality that can be completed in the 4 day sprint through this accelerated 3 week class. Keeping Sprint goal in mind, Team 1 described “what” and “how” of the sprint and its user stories. With that information, development team was able to forecast 11 points.
 
 ## Sprint 1 Backlog
