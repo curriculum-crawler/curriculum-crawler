@@ -192,8 +192,8 @@ Test Class | Behavior Tested
 [edu.harvard.cscis71.curriculum.CurriculumApplicationTests.java](backend/src/test/java/edu/harvard/cscis71/curriculum/CurriculumApplicationTests.java) | Initial test to validate that the spring contexts load
 [edu.harvard.cscis71.curriculum.HomeControllerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/HomeControllerTest.java) | Unit test without starting server to validate Root Endpoint
 [edu.harvard.cscis71.curriculum.HttpRequestTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum//HttpRequestTest.java) | Unit test starting server asserting the behavior or the application
-[edu.harvard.cscis71.curriculum.WebLayerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/api/DocumentControllerTest.java) | Unit test starting server asserting the behavior or the application
-[edu.harvard.cscis71.curriculum.api.DocumentApiControllerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/DocumentApiControllerTest.java) | Unit test testing document endpint
+[edu.harvard.cscis71.curriculum.WebLayerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/WebLayerTest.java) | Unit test starting server asserting the behavior or the application
+[edu.harvard.cscis71.curriculum.api.DocumentApiControllerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/api/DocumentApiControllerTest.java) | Unit test testing document endpint
 [sum.test.js](frontend/cc_frontend/tests/sum.test.js) | Initial validation that testing suite is able to find components. 
 [frontend.test.js](frontend/cc_frontend/tests/frontend.test.js) | Unit tests that validate the correct rendering of React components for the UI
 
