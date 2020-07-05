@@ -152,10 +152,15 @@ The Sprint Kanban board is at https://trello.com/b/iLxDKgHT/curriculum-crawler
       - Setup the backed code to run on the server
     - Do I have any impediments
       - I don't have any impediments
-- Wail Hermes
+- Wa'il Choudar
     - In the last 24 hours I
+      - Created a Burndown Chart.
+      - Revised the Kanban board. 
     - In the next 24 hours I
+      - Pair program with Edwin Lagos.
+      - Improve the UI design of the website.
     - Do I have any impediments
+      - I don't have any impediments
 
 ## Impediment removal plan 
 - Meeting scheduled for 11am July 5th with Professor to resolve impediments.
