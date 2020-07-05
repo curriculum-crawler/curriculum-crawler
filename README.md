@@ -26,6 +26,10 @@
     - [Backend Unit Tests](#backend-unit-tests)
     - [Front End Unit Tests](#front-end-unit-tests)
   - [Sprint 1 review](#sprint-1-review)
+    - [Sprint Demo](#sprint-demo)
+      - [Frontend Demo](#frontend-demo)
+      - [Backend Demo](#backend-demo)
+  - [Sprint 1 Retrospective](#sprint-1-retrospective)
 - [More Info](#more-info)
 
 # Curriculum Crawler
@@ -243,6 +247,7 @@ WebLayerTest > shouldReturnOKResponse() PASSED
 BUILD SUCCESSFUL in 21s
 8 actionable tasks: 8 executed
 ```
+![Back End Unit Test](images/sprint-1-backend-screenshot.png)
 ### Front End Unit Tests
 ```bash
 jest "--verbose"
