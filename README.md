@@ -272,7 +272,25 @@ Ran all test suites.
 - Review was held on 5th July 2020 with Professor Richard
 - https://github.com/curriculum-crawler/curriculum-crawler/images/Sprint_1_review_with_Richard_screenshot.png
 
-git re
+## Sprint 1 Retrospective
+
+What worked well?
+- The team met consistently on time for Scrum meetings
+- The daily scrums were very helpful to remain aligned within team members, consistent with Agile principles and outcomes.
+- Asked questions to clarify actions and keep accountability
+- Team communicated well on Slack and in meetings
+- Team members had a voice
+- Well coordinated activities to develop software product	
+- Good peer programming effort
+- Back end and Front end development aligned well to develop product.
+- Team was able to plan and deliver vertical thin slice of functional product.
+
+What could be improved?
+- The team took on more story points than able to complete in a 4 day sprint 1. This was due to it being the team's first sprint together, without a track record of throughput.
+
+What will we commit to improving in the next Sprint?
+- Team will have Sprint 1 to use as experience to reflect on Sprint 2's planning.
+
 # More Info
 
 We can also be found in Canvas [Project Group 1](https://canvas.harvard.edu/courses/72401/groups) and on our [Slack](https://agilesoftwarecourse.slack.com/archives/C015ND86AJ3) channel. Our Kanban board can be found at [Trello](https://trello.com/b/iLxDKgHT/agile-sprint-board).
