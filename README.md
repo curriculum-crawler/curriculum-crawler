@@ -90,7 +90,7 @@ The product backlog is ordered with items critical for starting development on t
   The team performed a Poker Point Activity on June 30, 2020. Only the development team members participated in the Poker Point Activity. Prity and Edwin participated as development team members while participating in point estimation while offering Scrum Master and Product Owner duties during Estimation. On each item in the backlog there is an Estimation field with the story points associated.
   
 ## Sprint 1
-The Sprint Kanban board is at https://trello.com/b/BEeWOpo7/curriculum-crawler-sprint-kanban-board
+The Sprint Kanban board is at https://trello.com/b/iLxDKgHT/curriculum-crawler
 
 ![Sprint Review Invitation](images/sprint-1-review-invite.jpg)
 
