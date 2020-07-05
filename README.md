@@ -145,8 +145,12 @@ The Sprint Kanban board is at https://trello.com/b/iLxDKgHT/curriculum-crawler
         - I don't have any impediments. 
 - Hemal Shah
     - In the last 24 hours I
+      - created and configured the AWS account for backend deployment
+      - Created a server to host the backend code. 
     - In the next 24 hours I
+      - Setup the backed code to run on the server
     - Do I have any impediments
+      - I don't have any impediments
 - Wail Hermes
     - In the last 24 hours I
     - In the next 24 hours I
