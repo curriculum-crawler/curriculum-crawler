@@ -10,15 +10,22 @@
   - [Definition of Ready](#definition-of-ready)
   - [Definition of Done](#definition-of-done)
   - [Initial Estimation](#initial-estimation)
-  - [Sprint 1](#sprint-1)
-  - [Burndown Chart](#Burndown-Chart)
+- [Sprint 1](#sprint-1)
+  - [Sprint 1 Forecast](#sprint-1-forecast)
+  - [Sprint Forecast Rationale](#sprint-forecast-rationale)
+  - [Sprint 1 Backlog](#sprint-1-backlog)
+  - [Sprint 1 Backlog screenshot](#sprint-1-backlog-screenshot)
+  - [Sprint 1 Story sizes](#sprint-1-story-sizes)
+  - [Burndown Chart](#burndown-chart)
   - [Daily Scrums](#daily-scrums)
-    - [Friday July 2, 2020](#friday-july-2-2020)
+    - [Friday July 3, 2020](#friday-july-3-2020)
+  - [Impediment removal plan](#impediment-removal-plan)
 - [Test Driven Development](#test-driven-development)
   - [Unit Tests](#unit-tests)
   - [Unit Test Run](#unit-test-run)
     - [Backend Unit Tests](#backend-unit-tests)
     - [Front End Unit Tests](#front-end-unit-tests)
+  - [Sprint 1 review](#sprint-1-review)
 - [More Info](#more-info)
 
 # Curriculum Crawler
@@ -89,7 +96,7 @@ The product backlog is ordered with items critical for starting development on t
 ## Initial Estimation
   The team performed a Poker Point Activity on June 30, 2020. Only the development team members participated in the Poker Point Activity. Prity and Edwin participated as development team members while participating in point estimation while offering Scrum Master and Product Owner duties during Estimation. On each item in the backlog there is an Estimation field with the story points associated.
   
-## Sprint 1
+# Sprint 1
 The Sprint Kanban board is at https://trello.com/b/iLxDKgHT/curriculum-crawler
 
 ![Sprint Review Invitation](images/sprint-1-review-invite.jpg)
@@ -107,8 +114,7 @@ The Sprint Kanban board is at https://trello.com/b/iLxDKgHT/curriculum-crawler
 - Our front-end developer had an unfortunate accident with bone fractures and another back-end developer had a conflict. For that reason, Edwin (PO) and Prity (SM) played development roles and sized the stories.
 
 ## Sprint 1 Backlog screenshot
-Screenshot taken with approved guidance from Professor Richard.
-https://github.com/curriculum-crawler/curriculum-crawler/tree/master/images/Sprint_1_backlog.png
+https://github.com/curriculum-crawler/curriculum-crawler/images/Sprint_1_backlog.png
 
 ## Sprint 1 Story sizes
 - The 3 stories in Sprint 1 are sized: 1, 5 and 5 points respectively. They are less than half of our forecast velocity of 11 points. As on Trello Board - https://trello.com/b/iLxDKgHT/curriculum-crawler 
@@ -184,9 +190,10 @@ https://github.com/curriculum-crawler/curriculum-crawler/tree/master/images/Spri
 Test Class | Behavior Tested
 ---------- | ---------------
 [edu.harvard.cscis71.curriculum.CurriculumApplicationTests.java](backend/src/test/java/edu/harvard/cscis71/curriculum/CurriculumApplicationTests.java) | Initial test to validate that the spring contexts load
-[edu.harvard.cscis71.curriculum.api.HomeControllerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/api/HomeControllerTest.java) | Unit test without starting server to validate Root Endpoint
-[edu.harvard.cscis71.curriculum.api.HttpRequestTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/api//HttpRequestTest.java) | Unit test starting server asserting the behavior or the application
-[edu.harvard.cscis71.curriculum.api.WebLayerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/api/WebLayerTest.java) | Unit test validating Spring application context starts but without server
+[edu.harvard.cscis71.curriculum.HomeControllerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/HomeControllerTest.java) | Unit test without starting server to validate Root Endpoint
+[edu.harvard.cscis71.curriculum.HttpRequestTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum//HttpRequestTest.java) | Unit test starting server asserting the behavior or the application
+[edu.harvard.cscis71.curriculum.WebLayerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/api/DocumentControllerTest.java) | Unit test starting server asserting the behavior or the application
+[edu.harvard.cscis71.curriculum.api.DocumentApiControllerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/DocumentApiControllerTest.java) | Unit test testing document endpint
 [sum.test.js](frontend/cc_frontend/tests/sum.test.js) | Initial validation that testing suite is able to find components. 
 [frontend.test.js](frontend/cc_frontend/tests/frontend.test.js) | Unit tests that validate the correct rendering of React components for the UI
 
@@ -195,25 +202,31 @@ Test Class | Behavior Tested
 ### Backend Unit Tests
 ```bash
 $> gradle clean build 
-executing gradlew instead of gradle
+> Task :compileJava
+Note: /Users/kbrown/OneDrive/college-docs/courses/Agile/curriculum-crawler/backend/src/main/java/edu/harvard/cscis71/curriculum/RFC3339DateFormat.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
 > Task :test
+
+HttpRequestTest > rootRequestShouldReturnRedirect() STARTED
+
+HttpRequestTest > rootRequestShouldReturnRedirect() PASSED
+
+HttpRequestTest > contextLoads() STARTED
+
+HttpRequestTest > contextLoads() PASSED
+
+HttpRequestTest > homeRequestWebClientShouldReturnRedirectResponse() STARTED
+
+HttpRequestTest > homeRequestWebClientShouldReturnRedirectResponse() PASSED
 
 CurriculumApplicationTests > contextLoads() STARTED
 
 CurriculumApplicationTests > contextLoads() PASSED
 
-HttpRequestTest > rootRequestShouldReturnOK() STARTED
+DocumentApiControllerTest > getDocuments() STARTED
 
-HttpRequestTest > rootRequestShouldReturnOK() PASSED
-
-HttpRequestTest > homeRequestWebClientShouldReturnOKResponse() STARTED
-
-HttpRequestTest > homeRequestWebClientShouldReturnOKResponse() PASSED
-
-HttpRequestTest > contextLoads() STARTED
-
-HttpRequestTest > contextLoads() PASSED
+DocumentApiControllerTest > getDocuments() PASSED
 
 HomeControllerTest > shouldReturnOKResponse() STARTED
 
@@ -222,13 +235,13 @@ HomeControllerTest > shouldReturnOKResponse() PASSED
 WebLayerTest > shouldReturnOKResponse() STARTED
 
 WebLayerTest > shouldReturnOKResponse() PASSED
-2020-07-03 14:19:47.087  INFO 14798 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-07-03 14:19:47.088  INFO 14798 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-07-03 14:19:47.131  INFO 14798 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-07-03 14:19:49.159  INFO 14798 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-05 19:15:18.044  INFO 82168 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-05 19:15:18.045  INFO 82168 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-05 19:15:18.075  INFO 82168 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-05 19:15:20.109  INFO 82168 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 
-BUILD SUCCESSFUL in 12s
-6 actionable tasks: 6 executed
+BUILD SUCCESSFUL in 21s
+8 actionable tasks: 8 executed
 ```
 ### Front End Unit Tests
 ```bash
@@ -257,9 +270,9 @@ Ran all test suites.
 
 ## Sprint 1 review
 - Review was held on 5th July 2020 with Professor Richard
-- https://github.com/curriculum-crawler/curriculum-crawler/tree/master/images/Sprint_1_review_with_Richard_screenshot.png
+- https://github.com/curriculum-crawler/curriculum-crawler/images/Sprint_1_review_with_Richard_screenshot.png
 
-
+git re
 # More Info
 
 We can also be found in Canvas [Project Group 1](https://canvas.harvard.edu/courses/72401/groups) and on our [Slack](https://agilesoftwarecourse.slack.com/archives/C015ND86AJ3) channel. Our Kanban board can be found at [Trello](https://trello.com/b/iLxDKgHT/agile-sprint-board).
