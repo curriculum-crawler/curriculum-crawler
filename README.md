@@ -273,8 +273,15 @@ Ran all test suites.
 - https://github.com/curriculum-crawler/curriculum-crawler/images/Sprint_1_review_with_Richard_screenshot.png
 
 ### Sprint Demo
-- The product was demonstrated to the client. The product in its current state can be found at: 
+- The product was demonstrated to the client. The product in its current state can be found at https://curriculumcrawler.herokuapp.com/
+
 ![Landing Page 1](https://github.com/curriculum-crawler/curriculum-crawler/blob/master/images/demo1-1.png)
+
+![Landing Page 2](https://github.com/curriculum-crawler/curriculum-crawler/blob/master/images/demo1-2.png)
+
+![Landing Page 3](https://github.com/curriculum-crawler/curriculum-crawler/blob/master/images/demo1-3.png)
+
+![Landing Page 4](https://github.com/curriculum-crawler/curriculum-crawler/blob/master/images/demo1-4.png)
 
 ## Sprint 1 Retrospective
 
