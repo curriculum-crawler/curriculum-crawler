@@ -272,6 +272,10 @@ Ran all test suites.
 - Review was held on 5th July 2020 with Professor Richard
 - https://github.com/curriculum-crawler/curriculum-crawler/images/Sprint_1_review_with_Richard_screenshot.png
 
+### Sprint Demo
+- The product was demonstrated to the client. The product in its current state can be found at: 
+![Landing Page 1](https://github.com/curriculum-crawler/curriculum-crawler/blob/master/images/demo1-1.png)
+
 ## Sprint 1 Retrospective
 
 What worked well?
