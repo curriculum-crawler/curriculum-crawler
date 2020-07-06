@@ -281,6 +281,9 @@ Ran all test suites.
 - Backend was completed by Hemal and Keith following the peer programming principles. 
 ![Peer programming](images/Hemal_Keith_pair_programming.png)
 
+- Frontend was completed by Edwin and Wa'il following the peer programming principles.
+![Peer programming](images/peer_fe_1.png)
+
 ## Sprint 1 review
 - Review was held on 5th July 2020 with Professor Richard
 - ![Sprint 1 Review](images/Sprint_1_review_with_Richard_screenshot.png)
