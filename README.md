@@ -119,7 +119,7 @@ The Sprint Kanban board is at https://trello.com/b/iLxDKgHT/curriculum-crawler
 - Our front-end developer had an unfortunate accident with bone fractures and another back-end developer had a conflict. For that reason, Edwin (PO) and Prity (SM) played development roles and sized the stories.
 
 ## Sprint 1 Backlog screenshot
-!(Sprint Backlog)[images/Sprint_1_backlog.png]
+![Sprint Backlog](images/Sprint_1_backlog.png)
 
 ## Sprint 1 Story sizes
 - The 3 stories in Sprint 1 are sized: 1, 5 and 5 points respectively. They are less than half of our forecast velocity of 11 points. As on Trello Board - https://trello.com/b/iLxDKgHT/curriculum-crawler 
