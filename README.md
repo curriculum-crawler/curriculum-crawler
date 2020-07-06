@@ -248,6 +248,9 @@ BUILD SUCCESSFUL in 21s
 8 actionable tasks: 8 executed
 ```
 ![Back End Unit Test](images/sprint-1-backend-screenshot.png)
+
+![Front End Unit Test](images/tests_fe_1.png)
+
 ### Front End Unit Tests
 ```bash
 jest "--verbose"
@@ -281,14 +284,14 @@ Ran all test suites.
 - The product was demonstrated to the client. The product in its current state can be found at https://curriculumcrawler.herokuapp.com/
 
 #### Frontend Demo
-![Landing Page 1](https://github.com/curriculum-crawler/curriculum-crawler/blob/master/images/demo1-1.png)
+![Landing Page 1](images/demo1-1.png)
 
-![Landing Page 2](https://github.com/curriculum-crawler/curriculum-crawler/blob/master/images/demo1-2.png)
+![Landing Page 2](images/demo1-2.png)
 
 #### Backend Demo
-![Landing Page 3](https://github.com/curriculum-crawler/curriculum-crawler/blob/master/images/demo1-3.png)
+![Landing Page 3](images/demo1-3.png)
 
-![Landing Page 4](https://github.com/curriculum-crawler/curriculum-crawler/blob/master/images/demo1-4.png)
+![Landing Page 4](images/demo1-4.png)
 
 ## Sprint 1 Retrospective
 
