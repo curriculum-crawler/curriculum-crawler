@@ -25,6 +25,7 @@
   - [Unit Test Run](#unit-test-run)
     - [Backend Unit Tests](#backend-unit-tests)
     - [Front End Unit Tests](#front-end-unit-tests)
+    - [Peer Programming](#peer-programming) 
   - [Sprint 1 review](#sprint-1-review)
     - [Sprint Demo](#sprint-demo)
       - [Frontend Demo](#frontend-demo)
