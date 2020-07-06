@@ -249,8 +249,6 @@ BUILD SUCCESSFUL in 21s
 ```
 ![Back End Unit Test](images/sprint-1-backend-screenshot.png)
 
-![Front End Unit Test](images/tests_fe_1.png)
-
 ### Front End Unit Tests
 ```bash
 jest "--verbose"
@@ -275,6 +273,8 @@ Snapshots:   0 total
 Time:        1.873 s, estimated 2 s
 Ran all test suites.
 ```
+
+![Front End Unit Test](images/tests_fe_1.png)
 
 ## Sprint 1 review
 - Review was held on 5th July 2020 with Professor Richard
