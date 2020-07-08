@@ -40,7 +40,9 @@
   - [Unit Test Run](#unit-test-run)
     - [Backend Unit Tests](#backend-unit-tests)
     - [Front End Unit Tests](#front-end-unit-tests)
-    - [Peer programming](#peer-programming)
+    - [Pair programming](#pair-programming)
+      - [Sprint 1](#sprint-1-1)
+      - [Sprint 2](#sprint-2-1)
 - [Continuous Integration / Continuous Deployment](#continuous-integration--continuous-deployment)
 - [More Info](#more-info)
 
@@ -390,12 +392,20 @@ Ran all test suites.
 
 ![Front End Unit Test](images/tests_fe_1.png)
 
-### Peer programming
+### Pair programming
+#### Sprint 1
 - Backend was completed by Hemal and Keith following the peer programming principles. 
-![Peer programming](images/Hemal_Keith_pair_programming.png)
+![Peir programming Sprint 1](images/Hemal_Keith_pair_programming.png)
 
 - Frontend was completed by Edwin and Wa'il following the peer programming principles.
-![Peer programming](images/peer_fe_1.png)
+![Peir programming Sprint 1](images/peer_fe_1.png)
+
+#### Sprint 2
+- Backend was completed by Hemal and Keith following the peer programming principles. 
+![Peir programming Sprint 2](images/Hemal_Keith_sprint_2.png)
+
+- Frontend was completed by Edwin and Wa'il following the peer programming principles.
+TODO
 
 # Continuous Integration / Continuous Deployment
 TODO
