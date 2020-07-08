@@ -244,7 +244,7 @@ TODO
 ## Sprint 2 Backlog screenshot
 
 ![Sprint 2 Backlog](images/sprint_backlog.JPG)
-![Sprint 2 tasks](images/story_tasks.JPG)
+![Sprint 2 tasks](images/sprint_tasks.JPG)
 
 ## Sprint 2 Story sizes
 As on Trello Board - https://trello.com/b/iLxDKgHT/curriculum-crawler 
