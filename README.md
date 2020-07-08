@@ -32,6 +32,7 @@
   - [Sprint 2 Backlog screenshot](#sprint-2-backlog-screenshot)
   - [Sprint 2 Story sizes](#sprint-2-story-sizes)
   - [Sprint 2 Burndown Chart](#sprint-2-burndown-chart)
+  - [Sprint Review Rehearsal](#sprint-review-rehearsal)
   - [Daily Scrums](#daily-scrums-1)
     - [Monday July 6, 2020](#monday-july-6-2020)
   - [Impediment removal plan](#impediment-removal-plan-1)
@@ -247,6 +248,9 @@ As on Trello Board - https://trello.com/b/iLxDKgHT/curriculum-crawler
 
 ## Sprint 2 Burndown Chart
 ![alt text](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJvzVh6TgLA5NhOi1Ss6NteqXMiAAWGSAoNBt-n6K7hprPFXBJ9t1ny-bQVMBFkyH11S_s41sK_1A0/pubchart?oid=883135275&format=image)
+
+## Sprint Review Rehearsal
+(images/rehearsal
 
 ## Daily Scrums
 ![Sprint Review Invitation](images/daily-scrum-invite.jpg)
