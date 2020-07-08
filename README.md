@@ -10,8 +10,6 @@
   - [Definition of Ready](#definition-of-ready)
   - [Definition of Done](#definition-of-done)
   - [Initial Estimation](#initial-estimation)
-- [Sprint 2](#sprint-2)
-  - [Sprint 2 Burndown Chart](#sprint-2-burndown-chart)
 - [Sprint 1](#sprint-1)
   - [Sprint 1 Forecast](#sprint-1-forecast)
   - [Sprint Forecast Rationale](#sprint-forecast-rationale)
@@ -22,17 +20,28 @@
   - [Daily Scrums](#daily-scrums)
     - [Friday July 3, 2020](#friday-july-3-2020)
   - [Impediment removal plan](#impediment-removal-plan)
+  - [Sprint 1 review](#sprint-1-review)
+    - [Sprint 1 Demo](#sprint-1-demo)
+      - [Frontend Demo](#frontend-demo)
+      - [Backend Demo](#backend-demo)
+  - [Sprint 1 Retrospective](#sprint-1-retrospective)
+- [Sprint 2](#sprint-2)
+  - [Sprint 2 Forecast](#sprint-2-forecast)
+  - [Sprint Forecast Rationale](#sprint-forecast-rationale-1)
+  - [Sprint 2 Backlog](#sprint-2-backlog)
+  - [Sprint 2 Backlog screenshot](#sprint-2-backlog-screenshot)
+  - [Sprint 2 Story sizes](#sprint-2-story-sizes)
+  - [Sprint 2 Burndown Chart](#sprint-2-burndown-chart)
+  - [Daily Scrums](#daily-scrums-1)
+    - [Monday July 6, 2020](#monday-july-6-2020)
+  - [Impediment removal plan](#impediment-removal-plan-1)
 - [Test Driven Development](#test-driven-development)
   - [Unit Tests](#unit-tests)
   - [Unit Test Run](#unit-test-run)
     - [Backend Unit Tests](#backend-unit-tests)
     - [Front End Unit Tests](#front-end-unit-tests)
-    - [Peer Programming](#peer-programming) 
-  - [Sprint 1 review](#sprint-1-review)
-    - [Sprint Demo](#sprint-demo)
-      - [Frontend Demo](#frontend-demo)
-      - [Backend Demo](#backend-demo)
-  - [Sprint 1 Retrospective](#sprint-1-retrospective)
+    - [Peer programming](#peer-programming)
+- [Continuous Integration / Continuous Deployment](#continuous-integration--continuous-deployment)
 - [More Info](#more-info)
 
 # Curriculum Crawler
@@ -102,11 +111,7 @@ The product backlog is ordered with items critical for starting development on t
   
 ## Initial Estimation
   The team performed a Poker Point Activity on June 30, 2020. Only the development team members participated in the Poker Point Activity. Prity and Edwin participated as development team members while participating in point estimation while offering Scrum Master and Product Owner duties during Estimation. On each item in the backlog there is an Estimation field with the story points associated.
-# Sprint 2
-
-## Sprint 2 Burndown Chart
-![alt text](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJvzVh6TgLA5NhOi1Ss6NteqXMiAAWGSAoNBt-n6K7hprPFXBJ9t1ny-bQVMBFkyH11S_s41sK_1A0/pubchart?oid=883135275&format=image)
-
+  
 # Sprint 1
 The Sprint Kanban board is at https://trello.com/b/iLxDKgHT/curriculum-crawler
 
@@ -185,6 +190,108 @@ The Sprint Kanban board is at https://trello.com/b/iLxDKgHT/curriculum-crawler
 
 ## Impediment removal plan 
 - Meeting scheduled for 11am July 5th with Professor to resolve impediments.
+
+## Sprint 1 review
+- Review was held on 5th July 2020 with Professor Richard
+- ![Sprint 1 Review](images/Sprint_1_review_with_Richard_screenshot.png)
+
+### Sprint 1 Demo
+- The product was demonstrated to the client. The product in its current state can be found at https://curriculumcrawler.herokuapp.com/
+
+#### Frontend Demo
+![Landing Page 1](images/demo1-1.png)
+
+![Landing Page 2](images/demo1-2.png)
+
+#### Backend Demo
+![Landing Page 3](images/demo1-3.png)
+
+![Landing Page 4](images/demo1-4.png)
+
+## Sprint 1 Retrospective
+
+What worked well?
+- The team met consistently on time for Scrum meetings
+- The daily scrums were very helpful to remain aligned within team members, consistent with Agile principles and outcomes.
+- Asked questions to clarify actions and keep accountability
+- Team communicated well on Slack and in meetings
+- Team members had a voice
+- Well coordinated activities to develop software product	
+- Good peer programming effort
+- Back end and Front end development aligned well to develop product.
+- Team was able to plan and deliver vertical thin slice of functional product.
+
+What could be improved?
+- The team took on more story points than able to complete in a 4 day sprint 1. This was due to it being the team's first sprint together, without a track record of throughput.
+
+What will we commit to improving in the next Sprint?
+- Team will have Sprint 1 to use as experience to reflect on Sprint 2's planning.
+
+# Sprint 2
+## Sprint 2 Forecast 
+TODO
+
+## Sprint Forecast Rationale 
+TODO
+
+## Sprint 2 Backlog
+TODO
+
+## Sprint 2 Backlog screenshot
+![Sprint Backlog](images/Sprint_2_backlog.png)
+
+## Sprint 2 Story sizes
+As on Trello Board - https://trello.com/b/iLxDKgHT/curriculum-crawler 
+
+## Sprint 2 Burndown Chart
+![alt text](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJvzVh6TgLA5NhOi1Ss6NteqXMiAAWGSAoNBt-n6K7hprPFXBJ9t1ny-bQVMBFkyH11S_s41sK_1A0/pubchart?oid=883135275&format=image)
+
+## Daily Scrums
+![Sprint Review Invitation](images/daily-scrum-invite.jpg)
+
+### Monday July 6, 2020
+- Keith Brown
+    - In the last 24 hours I
+        Worked on document upload REST API
+        Created document upload branch
+    - In the next 24 hours I
+        Evaluate and strategize Continuous Delivery part of project part 3
+    - Do I have any impediments
+        Issue uploading to EC2 instance
+- Prity Hutchinson
+    - In the last 24 hours I
+        Led Sprint review, Spring retrospective and Sprint planning
+    - In the next 24 hours I
+        Create Powerpoint for Spring 2 review for PO to present
+    - Do I have any impediments
+        None at this time
+- Edwin Lagos
+    - In the last 24 hours I
+        - Added SSO with Google. Auth validated for uploading documents
+        - Implement documents from Google drive and ability to upload documents to database
+    - In the next 24 hours I
+        - Add functionality to download documents
+        - Evaluate method to search documents, that are uploaded to Google
+    - Do I have any impediments
+        - Unable to complete functional UI due to backend issues
+- Hemal Shah
+    - In the last 24 hours I
+        Work on document REST API & evaluate multi-part option        
+    - In the next 24 hours I
+        Complete upload document testing
+    - Do I have any impediments
+        None at this time
+- Wa'il Choudar
+    - In the last 24 hours I
+        Peer programming with Edwin for Website UI
+        Align front end UX
+    - In the next 24 hours I
+        Improve UI
+    - Do I have any impediments
+        None at this time
+## Impediment removal plan 
+  Team will look into Heroku CD options - July 6, 2020
+  Backend APIs need to be completed 
 
 # Test Driven Development
 - All Backend Server tests are executed on every checkin to Master at https://github.com/curriculum-crawler/curriculum-crawler/actions (Java CI with Gradle) 
@@ -284,48 +391,14 @@ Ran all test suites.
 ![Front End Unit Test](images/tests_fe_1.png)
 
 ### Peer programming
-- Backend was completed by Hemal and Keith following the peer programming principles.(Spring 1) 
+- Backend was completed by Hemal and Keith following the peer programming principles. 
 ![Peer programming](images/Hemal_Keith_pair_programming.png)
-- Backend was completed by Hemal and Keith following the peer programming principles.(Spring 2)
-![Peer programming](images/Hemal_Keith_sprint_2.png)
+
 - Frontend was completed by Edwin and Wa'il following the peer programming principles.
 ![Peer programming](images/peer_fe_1.png)
 
-## Sprint 1 review
-- Review was held on 5th July 2020 with Professor Richard
-- ![Sprint 1 Review](images/Sprint_1_review_with_Richard_screenshot.png)
-
-### Sprint Demo
-- The product was demonstrated to the client. The product in its current state can be found at https://curriculumcrawler.herokuapp.com/
-
-#### Frontend Demo
-![Landing Page 1](images/demo1-1.png)
-
-![Landing Page 2](images/demo1-2.png)
-
-#### Backend Demo
-![Landing Page 3](images/demo1-3.png)
-
-![Landing Page 4](images/demo1-4.png)
-
-## Sprint 1 Retrospective
-
-What worked well?
-- The team met consistently on time for Scrum meetings
-- The daily scrums were very helpful to remain aligned within team members, consistent with Agile principles and outcomes.
-- Asked questions to clarify actions and keep accountability
-- Team communicated well on Slack and in meetings
-- Team members had a voice
-- Well coordinated activities to develop software product	
-- Good peer programming effort
-- Back end and Front end development aligned well to develop product.
-- Team was able to plan and deliver vertical thin slice of functional product.
-
-What could be improved?
-- The team took on more story points than able to complete in a 4 day sprint 1. This was due to it being the team's first sprint together, without a track record of throughput.
-
-What will we commit to improving in the next Sprint?
-- Team will have Sprint 1 to use as experience to reflect on Sprint 2's planning.
+# Continuous Integration / Continuous Deployment
+TODO
 
 # More Info
 
