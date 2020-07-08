@@ -242,8 +242,8 @@ TODO
 - The aggregate size of stories is 6 points, same as a the forecast.
 
 ## Sprint 2 Backlog screenshot
-![Sprint Backlog](images/Sprint_backlog.png)
-![Sprint tasks](images/story_tasks.png)
+![Sprint Backlog](images/Sprint_backlog.JPG)
+![Sprint tasks](images/story_tasks.JPG)
 
 ## Sprint 2 Story sizes
 As on Trello Board - https://trello.com/b/iLxDKgHT/curriculum-crawler 
