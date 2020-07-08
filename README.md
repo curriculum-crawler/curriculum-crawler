@@ -238,10 +238,12 @@ TODO
 TODO
 
 ## Sprint 2 Backlog
-TODO
+- Two key tasks to provide search functionality were identified as MVP for the final sprint. The tasks include: UI page which opens up file chooser, provide on-screen confirmation for files uploaded successfully, and implement search from REST API. 
+- The aggregate size of stories is 6 points, same as a the forecast.
 
 ## Sprint 2 Backlog screenshot
-![Sprint Backlog](images/Sprint_2_backlog.png)
+![Sprint Backlog](images/Sprint_backlog.png)
+![Sprint tasks](images/story_tasks.png)
 
 ## Sprint 2 Story sizes
 As on Trello Board - https://trello.com/b/iLxDKgHT/curriculum-crawler 
