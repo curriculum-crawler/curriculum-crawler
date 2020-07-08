@@ -1,3 +1,6 @@
 [submodule "frontend/cc_frontend"]
 	path = frontend/cc_frontend
 	url = https://github.com/curriculum-crawler/cc_frontend.git
+[submodule "currciulum-crawler-backend"]
+	path = currciulum-crawler-backend
+	url = git@github.com:curriculum-crawler/curriculum-crawler-backend.git
