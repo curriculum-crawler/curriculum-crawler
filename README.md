@@ -284,9 +284,10 @@ Ran all test suites.
 ![Front End Unit Test](images/tests_fe_1.png)
 
 ### Peer programming
-- Backend was completed by Hemal and Keith following the peer programming principles. 
+- Backend was completed by Hemal and Keith following the peer programming principles.(Spring 1) 
 ![Peer programming](images/Hemal_Keith_pair_programming.png)
-
+- Backend was completed by Hemal and Keith following the peer programming principles.(Spring 2)
+![Peer programming](images/Hemal_Keith_sprint_2.png)
 - Frontend was completed by Edwin and Wa'il following the peer programming principles.
 ![Peer programming](images/peer_fe_1.png)
 
