@@ -10,13 +10,15 @@
   - [Definition of Ready](#definition-of-ready)
   - [Definition of Done](#definition-of-done)
   - [Initial Estimation](#initial-estimation)
+- [Sprint 2](#sprint-2)
+  - [Sprint 2 Burndown Chart](#sprint-2-burndown-chart)
 - [Sprint 1](#sprint-1)
   - [Sprint 1 Forecast](#sprint-1-forecast)
   - [Sprint Forecast Rationale](#sprint-forecast-rationale)
   - [Sprint 1 Backlog](#sprint-1-backlog)
   - [Sprint 1 Backlog screenshot](#sprint-1-backlog-screenshot)
   - [Sprint 1 Story sizes](#sprint-1-story-sizes)
-  - [Burndown Chart](#burndown-chart)
+  - [Sprint 1 Burndown Chart](#sprint-1-burndown-chart)
   - [Daily Scrums](#daily-scrums)
     - [Friday July 3, 2020](#friday-july-3-2020)
   - [Impediment removal plan](#impediment-removal-plan)
@@ -100,7 +102,11 @@ The product backlog is ordered with items critical for starting development on t
   
 ## Initial Estimation
   The team performed a Poker Point Activity on June 30, 2020. Only the development team members participated in the Poker Point Activity. Prity and Edwin participated as development team members while participating in point estimation while offering Scrum Master and Product Owner duties during Estimation. On each item in the backlog there is an Estimation field with the story points associated.
-  
+# Sprint 2
+
+## Sprint 2 Burndown Chart
+![alt text](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJvzVh6TgLA5NhOi1Ss6NteqXMiAAWGSAoNBt-n6K7hprPFXBJ9t1ny-bQVMBFkyH11S_s41sK_1A0/pubchart?oid=883135275&format=image)
+
 # Sprint 1
 The Sprint Kanban board is at https://trello.com/b/iLxDKgHT/curriculum-crawler
 
@@ -124,7 +130,7 @@ The Sprint Kanban board is at https://trello.com/b/iLxDKgHT/curriculum-crawler
 ## Sprint 1 Story sizes
 - The 3 stories in Sprint 1 are sized: 1, 5 and 5 points respectively. They are less than half of our forecast velocity of 11 points. As on Trello Board - https://trello.com/b/iLxDKgHT/curriculum-crawler 
 
-## Burndown Chart
+## Sprint 1 Burndown Chart
 ![alt text](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vQNo-X2gjKdnmAugHCURJ6U1weBgBkl2yiznDoslvtjUQt-6ctWIpPscKXCm-eFjeZEYZc75cJ6JHRK/pubchart?oid=883135275&format=image)
 ## Daily Scrums
 ![Sprint Review Invitation](images/daily-scrum-invite.jpg)
