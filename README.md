@@ -250,7 +250,7 @@ As on Trello Board - https://trello.com/b/iLxDKgHT/curriculum-crawler
 ![alt text](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJvzVh6TgLA5NhOi1Ss6NteqXMiAAWGSAoNBt-n6K7hprPFXBJ9t1ny-bQVMBFkyH11S_s41sK_1A0/pubchart?oid=883135275&format=image)
 
 ## Sprint Review Rehearsal
-(images/rehearsal
+(images/rehearsal.png)
 
 ## Daily Scrums
 ![Sprint Review Invitation](images/daily-scrum-invite.jpg)
