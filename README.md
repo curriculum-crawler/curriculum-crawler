@@ -258,7 +258,7 @@ Before Adding to Sprint Backlog           |  After Adding to Sprint Backlog
 :----------------------------------------:|:------------------------------------------:
 ![Sprint 2 Backlog](images/Sprint2-1.png) |  ![Sprint 2 Backlog](images/Sprint2-2.png)
 
-## Sprint 2 Backlog screenshot
+## Sprint 2 Backlog screenshot (end of sprint)
 
 ![Sprint 2 Backlog](images/sprint_backlog.JPG)
 ![Sprint 2 tasks](images/sprint_tasks.JPG)
