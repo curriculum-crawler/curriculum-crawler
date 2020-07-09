@@ -479,30 +479,40 @@ BUILD SUCCESSFUL in 22s
 
 ### Front End Unit Tests
 ```bash
-jest "--verbose"
+> jest "--verbose"
 
  PASS  tests/sum.test.js
   ✓ adds 1 + 2 to equal 3 (2 ms)
   ✓ adds 5 + 2 to equal 7
 
  PASS  tests/frontend.test.js
-  ✓ renders correct greeting (29 ms)
-  ✓ will render a search bar as an input group (5 ms)
-  ✓ will render a search bar with a placeholder message (5 ms)
-  ✓ will render a field to upload files (4 ms)
-  ✓ will show placeholder text in a custom file input field (3 ms)
-  ✓ will render a field to upload files (4 ms)
+  ✓ renders correct greeting (66 ms)
+  ✓ will render a search bar as an input group (13 ms)
+  ✓ will render a search bar with a placeholder message (18 ms)
+  ✓ will render a field to upload files (12 ms)
+  ✓ will show placeholder text in a custom file input field (11 ms)
+  ✓ will render a field to upload files (10 ms)
+  ✓ clear button renders (10 ms)
+  ✓ search button renders (10 ms)
   ✓ search cards will show the author's name and email (3 ms)
-  ✓ search card will show the the curriculum's description as text (5 ms)
+  ✓ search card will show the the curriculum's description as text (2 ms)
+  ✓ a sign out button is present and contains right title (2 ms)
 
 Test Suites: 2 passed, 2 total
-Tests:       10 passed, 10 total
+Tests:       13 passed, 13 total
 Snapshots:   0 total
-Time:        1.873 s, estimated 2 s
+Time:        2.148 s
 Ran all test suites.
 ```
 
-![Front End Unit Test](images/tests_fe_1.png)
+Tests on CI
+
+![Front End Unit Test](images/tests_fe_2.png)
+
+Test on Command Line:
+
+![Front End Unit Test](images/tests_fe_2_terminal.png)
+
 
 ### Pair programming
 #### Sprint 1
