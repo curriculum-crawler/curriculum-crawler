@@ -36,7 +36,7 @@
   - [Daily Scrums](#daily-scrums-1)
     - [Monday July 6, 2020](#monday-july-6-2020)
   - [Impediment removal plan](#impediment-removal-plan-1)
-- [Test Driven Development](#test-driven-development)
+- [Continuous Integration](#continuous-integration)
   - [Unit Tests](#unit-tests)
   - [Unit Test Run](#unit-test-run)
     - [Backend Unit Tests](#backend-unit-tests)
@@ -44,7 +44,11 @@
     - [Pair programming](#pair-programming)
       - [Sprint 1](#sprint-1-1)
       - [Sprint 2](#sprint-2-1)
-- [Continuous Integration / Continuous Deployment](#continuous-integration--continuous-deployment)
+- [Continuous Deployment](#continuous-deployment)
+  - [Backend Continuous Deployment Pipeline](#backend-continuous-deployment-pipeline)
+  - [Backend Continuous Deployment Dashboard](#backend-continuous-deployment-dashboard)
+  - [Frontend Continuous Deployment Pipeline](#frontend-continuous-deployment-pipeline)
+  - [Frontend Continuous Deployment Dashboard](#frontend-continuous-deployment-dashboard)
 - [More Info](#more-info)
 
 # Curriculum Crawler
@@ -303,8 +307,9 @@ As on Trello Board - https://trello.com/b/iLxDKgHT/curriculum-crawler
   Team will look into Heroku CD options - July 6, 2020
   Backend APIs need to be completed 
 
-# Test Driven Development
-- All Backend Server tests are executed on every checkin to Master at https://github.com/curriculum-crawler/curriculum-crawler/actions (Java CI with Gradle) 
+# Continuous Integration
+All tests are run as part of the checkin/pull into the master branch.
+- All Backend Server tests are executed on every checkin to Master at https://github.com/curriculum-crawler/curriculum-crawler-backend/actions (Java CI with Gradle) 
 - To view the tests executions 
     1. Select the "Java CI with Gradle" workflow
     2. Select a commit
@@ -317,11 +322,11 @@ As on Trello Board - https://trello.com/b/iLxDKgHT/curriculum-crawler
 ## Unit Tests
 Test Class | Behavior Tested
 ---------- | ---------------
-[edu.harvard.cscis71.curriculum.CurriculumApplicationTests.java](backend/src/test/java/edu/harvard/cscis71/curriculum/CurriculumApplicationTests.java) | Initial test to validate that the spring contexts load
-[edu.harvard.cscis71.curriculum.HomeControllerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/HomeControllerTest.java) | Unit test without starting server to validate Root Endpoint
-[edu.harvard.cscis71.curriculum.HttpRequestTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum//HttpRequestTest.java) | Unit test starting server asserting the behavior or the application
-[edu.harvard.cscis71.curriculum.WebLayerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/WebLayerTest.java) | Unit test starting server asserting the behavior or the application
-[edu.harvard.cscis71.curriculum.api.DocumentApiControllerTest.java](backend/src/test/java/edu/harvard/cscis71/curriculum/api/DocumentApiControllerTest.java) | Unit test testing document endpint
+[edu.harvard.cscis71.curriculum.CurriculumApplicationTests.java](https://github.com/curriculum-crawler/curriculum-crawler-backend/src/test/java/edu/harvard/cscis71/curriculum/CurriculumApplicationTests.java) | Initial test to validate that the spring contexts load
+[edu.harvard.cscis71.curriculum.HomeControllerTest.java](chttps://github.com/curriculum-crawler/urriculum-crawler-backend/src/test/java/edu/harvard/cscis71/curriculum/HomeControllerTest.java) | Unit test without starting server to validate Root Endpoint
+[edu.harvard.cscis71.curriculum.HttpRequestTest.java](https://github.com/curriculum-crawler/curriculum-crawler-backend/src/test/java/edu/harvard/cscis71/curriculum//HttpRequestTest.java) | Mock test starting server asserting the behavior or the application
+[edu.harvard.cscis71.curriculum.WebLayerTest.java](https://github.com/curriculum-crawler/curriculum-crawler-backend/src/test/java/edu/harvard/cscis71/curriculum/WebLayerTest.java) | Mock test starting server asserting the behavior of the REST endpoints
+[edu.harvard.cscis71.curriculum.api.DocumentApiControllerTest.java](https://github.com/curriculum-crawler/curriculum-crawler-backend/src/test/java/edu/harvard/cscis71/curriculum/api/DocumentApiControllerTest.java) | Unit test testing document endpoint functionality
 [sum.test.js](https://github.com/curriculum-crawler/cc_frontend/blob/master/tests/sum.test.js) | Initial validation that testing suite is able to find components. 
 [frontend.test.js](https://github.com/curriculum-crawler/cc_frontend/blob/master/tests/frontend.test.js) | Unit tests that validate the correct rendering of React components for the UI
 
@@ -331,7 +336,17 @@ Test Class | Behavior Tested
 ```bash
 $> gradle clean build 
 > Task :compileJava
-Note: /Users/kbrown/OneDrive/college-docs/courses/Agile/curriculum-crawler/backend/src/main/java/edu/harvard/cscis71/curriculum/RFC3339DateFormat.java uses or overrides a deprecated API.
+
+> Task :test
+
+executing gradlew instead of gradle
+Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+
+> Task :openApiGenerate
+Successfully generated code to /Users/kbrown/OneDrive/college-docs/courses/Agile/curriculum-crawler-backend/build/generated
+
+> Task :compileJava
+Note: /Users/kbrown/OneDrive/college-docs/courses/Agile/curriculum-crawler-backend/src/main/java/edu/harvard/cscis71/curriculum/RFC3339DateFormat.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :test
@@ -352,9 +367,49 @@ CurriculumApplicationTests > contextLoads() STARTED
 
 CurriculumApplicationTests > contextLoads() PASSED
 
+DocumentApiControllerTest > deleteDocument() STARTED
+
+DocumentApiControllerTest > deleteDocument() PASSED
+
+DocumentApiControllerTest > testUploadDocument() STARTED
+
+DocumentApiControllerTest > testUploadDocument() PASSED
+
+DocumentApiControllerTest > testGetByDocumentId() STARTED
+
+DocumentApiControllerTest > testGetByDocumentId() PASSED
+
+DocumentApiControllerTest > getByDocumentId() STARTED
+
+DocumentApiControllerTest > getByDocumentId() PASSED
+
+DocumentApiControllerTest > testUpdateDocument() STARTED
+
+DocumentApiControllerTest > testUpdateDocument() PASSED
+
+DocumentApiControllerTest > testCreateDocument() STARTED
+
+DocumentApiControllerTest > testCreateDocument() PASSED
+
 DocumentApiControllerTest > getDocuments() STARTED
 
 DocumentApiControllerTest > getDocuments() PASSED
+
+DocumentApiControllerTest > updateDocument() STARTED
+
+DocumentApiControllerTest > updateDocument() PASSED
+
+DocumentApiControllerTest > createDocument() STARTED
+
+DocumentApiControllerTest > createDocument() PASSED
+
+DocumentApiControllerTest > testDeleteDocument() STARTED
+
+DocumentApiControllerTest > testDeleteDocument() PASSED
+
+DocumentApiControllerTest > testGetDocuments() STARTED
+
+DocumentApiControllerTest > testGetDocuments() PASSED
 
 HomeControllerTest > shouldReturnOKResponse() STARTED
 
@@ -363,15 +418,50 @@ HomeControllerTest > shouldReturnOKResponse() PASSED
 WebLayerTest > shouldReturnOKResponse() STARTED
 
 WebLayerTest > shouldReturnOKResponse() PASSED
-2020-07-05 19:15:18.044  INFO 82168 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-07-05 19:15:18.045  INFO 82168 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-07-05 19:15:18.075  INFO 82168 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-07-05 19:15:20.109  INFO 82168 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 
-BUILD SUCCESSFUL in 21s
-8 actionable tasks: 8 executed
+WebLayerTest > deleteDocument() STARTED
+
+WebLayerTest > deleteDocument() PASSED
+
+WebLayerTest > getByDocumentId() STARTED
+
+WebLayerTest > getByDocumentId() PASSED
+
+WebLayerTest > getDocuments() STARTED
+
+WebLayerTest > getDocuments() PASSED
+
+WebLayerTest > updateDocument() STARTED
+
+WebLayerTest > updateDocument() PASSED
+
+WebLayerTest > createDocument() STARTED
+
+WebLayerTest > createDocument() PASSED
+2020-07-09 00:53:49.206  INFO 37742 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 00:53:49.209  INFO 37742 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 00:53:49.209  INFO 37742 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 00:53:49.209  INFO 37742 --- [extShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-07-09 00:53:49.209  INFO 37742 --- [extShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-07-09 00:53:49.217  INFO 37742 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 00:53:49.217  INFO 37742 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 00:53:49.217  INFO 37742 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-07-09 00:53:49.217  INFO 37742 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2020-07-09 00:53:49.224  INFO 37742 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2020-07-09 00:53:49.224  INFO 37742 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2020-07-09 00:53:49.230  INFO 37742 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 00:53:49.230  INFO 37742 --- [extShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-07-09 00:53:49.231  INFO 37742 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 00:53:49.232  INFO 37742 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 00:53:49.232  INFO 37742 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 00:53:51.264  INFO 37742 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 00:53:51.264  INFO 37742 --- [extShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-07-09 00:53:51.265  INFO 37742 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 00:53:51.265  INFO 37742 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-07-09 00:53:51.266  INFO 37742 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+
+BUILD SUCCESSFUL in 22s
 ```
-![Back End Unit Test](images/sprint-1-backend-screenshot.png)
 
 ### Front End Unit Tests
 ```bash
@@ -413,10 +503,22 @@ Ran all test suites.
 ![Peir programming Sprint 2](images/Hemal_Keith_sprint_2.png)
 
 - Frontend was completed by Edwin and Wa'il following the peer programming principles.
-TODO
 
-# Continuous Integration / Continuous Deployment
-TODO
+
+# Continuous Deployment
+We deploy both the frontend and backend service on the Heroku Platform.
+- For each check in or merge to the curriculum-crawler-backend repo master branch, we execute the tests and deploy the application ub the curriculum-crawler/curriculum-crawler-backend pipeline.
+- For each check in or merge to the cc_frontend repository master branch, we execute the tests and deploy the application ub the curriculum-crawler/cc_frontend pipeline.
+
+## Backend Continuous Deployment Pipeline
+![Backend Continuous Deployment Pipeline](images/backend-pipeline.png)
+## Backend Continuous Deployment Dashboard
+![Backend Continuous Deployment Dashboar](images/backend-cd.png)
+
+## Frontend Continuous Deployment Pipeline
+![Frontend Continuous Deployment Pipeline](images/frontend-pipeline.png)
+## Frontend Continuous Deployment Dashboard
+![Frontend Continuous Deployment Dashboar](images/frontend-cd.png)
 
 # More Info
 
