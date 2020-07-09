@@ -232,11 +232,12 @@ What will we commit to improving in the next Sprint?
 
 # Sprint 2
 ## Sprint 2 Forecast 
-- Sprint 1 forecast was determined to be 6 points.
+- Sprint 2 forecast was determined to be 6 points.
 
 ## Sprint Forecast Rationale 
-- With only 1 sprint in our sprint history, we opted for a conservative estimate. Using Yesterday's Weather, we saw that 1 story point was completed in the first sprint. 
-After taking into consideration the partial stories that were previously completed and factoring in a sprint buffer for interruptions, we happened upon a final estimation of 6 story points.
+- With only one sprint in our sprint history, we opted for a conservative estimate. 
+-Using Yesterday's Weather, we saw that 1 story point was completed in the first sprint. After taking into consideration the partial stories that were previously completed and factoring in a sprint buffer for interruptions, we happened upon a final estimation of 6 story points.
+
 ## Sprint 2 Backlog
 - Two key tasks to provide search functionality were identified as MVP for the final sprint. The tasks include: UI page which opens up file chooser, provide on-screen confirmation for files uploaded successfully, and implement search from REST API. 
 - The aggregate size of stories is 6 points, same as a the forecast.
