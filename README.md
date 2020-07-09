@@ -28,6 +28,7 @@
 - [Sprint 2](#sprint-2)
   - [Sprint 2 Forecast](#sprint-2-forecast)
   - [Sprint Forecast Rationale](#sprint-forecast-rationale-1)
+    - [Sprint Stories Pulled](#sprint-stories-pulled-1)
   - [Sprint 2 Backlog](#sprint-2-backlog)
   - [Sprint 2 Backlog screenshot](#sprint-2-backlog-screenshot)
   - [Sprint 2 Story sizes](#sprint-2-story-sizes)
@@ -242,7 +243,7 @@ What will we commit to improving in the next Sprint?
 - With only one sprint in our sprint history, we opted for a conservative estimate. 
 -Using Yesterday's Weather, we saw that 1 story point was completed in the first sprint. After taking into consideration the partial stories that were previously completed and factoring in a sprint buffer for interruptions, we happened upon a final estimation of 6 story points.
 
-### Sprint stories Pulled
+### Sprint Stories Pulled
 
 You can see below that the stories that were pulled into the sprint backlog came directly from the top of the backlog. It is also clear that the size of the story does not exceed our forecast of 6.
 
