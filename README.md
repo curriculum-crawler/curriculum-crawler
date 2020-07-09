@@ -28,7 +28,6 @@
 - [Sprint 2](#sprint-2)
   - [Sprint 2 Forecast](#sprint-2-forecast)
   - [Sprint Forecast Rationale](#sprint-forecast-rationale-1)
-    - [Sprint Stories Pulled](#sprint-stories-pulled-1)
   - [Sprint 2 Backlog](#sprint-2-backlog)
   - [Sprint 2 Backlog screenshot](#sprint-2-backlog-screenshot)
   - [Sprint 2 Story sizes](#sprint-2-story-sizes)
@@ -243,18 +242,21 @@ What will we commit to improving in the next Sprint?
 - With only one sprint in our sprint history, we opted for a conservative estimate. 
 -Using Yesterday's Weather, we saw that 1 story point was completed in the first sprint. After taking into consideration the partial stories that were previously completed and factoring in a sprint buffer for interruptions, we happened upon a final estimation of 6 story points.
 
+## Sprint 2 Backlog
+- Two key tasks to provide search functionality were identified as MVP for the final sprint. The tasks include: UI page which opens up file chooser, provide on-screen confirmation for files uploaded successfully, and implement search from REST API. 
+- The aggregate size of stories is 6 points, same as a the forecast.
+
 ### Sprint Stories Pulled
 
-You can see below that the stories that were pulled into the sprint backlog came directly from the top of the backlog. It is also clear that the size of the story does not exceed our forecast of 6.
+You can see below that the stories that were pulled into the sprint backlog came directly from the top of the backlog. 
+
+It is also clear that the size of the story does not exceed our forecast of 6. Each is 3 points, showing that we made sure that either one is not more than half of the total velocity of the sprint. It important to note that some refinedment to the size of the stories was needed from the initial estimation. After conducting our research we realized that we overestimated initially by choosing each of these stories are being 5 points, before our first sprint. During this sprint we re-estimated them to be 3 points each. 
+
+Participating members: Development Team.
 
 Before Adding to Sprint Backlog           |  After Adding to Sprint Backlog
 :----------------------------------------:|:------------------------------------------:
 ![Sprint 2 Backlog](images/Sprint2-1.png) |  ![Sprint 2 Backlog](images/Sprint2-2.png)
-
-
-## Sprint 2 Backlog
-- Two key tasks to provide search functionality were identified as MVP for the final sprint. The tasks include: UI page which opens up file chooser, provide on-screen confirmation for files uploaded successfully, and implement search from REST API. 
-- The aggregate size of stories is 6 points, same as a the forecast.
 
 ## Sprint 2 Backlog screenshot
 
