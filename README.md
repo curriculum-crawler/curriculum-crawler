@@ -337,7 +337,7 @@ All tests are run as part of the checkin/pull into the master branch.
 Test Class | Behavior Tested
 ---------- | ---------------
 [edu.harvard.cscis71.curriculum.CurriculumApplicationTests.java](https://github.com/curriculum-crawler/curriculum-crawler-backend/src/test/java/edu/harvard/cscis71/curriculum/CurriculumApplicationTests.java) | Initial test to validate that the spring contexts load
-[edu.harvard.cscis71.curriculum.HomeControllerTest.java](chttps://github.com/curriculum-crawler/urriculum-crawler-backend/src/test/java/edu/harvard/cscis71/curriculum/HomeControllerTest.java) | Unit test without starting server to validate Root Endpoint
+[edu.harvard.cscis71.curriculum.HomeControllerTest.java](https://github.com/curriculum-crawler/curriculum-crawler-backend/src/test/java/edu/harvard/cscis71/curriculum/HomeControllerTest.java) | Unit test without starting server to validate Root Endpoint
 [edu.harvard.cscis71.curriculum.HttpRequestTest.java](https://github.com/curriculum-crawler/curriculum-crawler-backend/src/test/java/edu/harvard/cscis71/curriculum//HttpRequestTest.java) | Mock test starting server asserting the behavior or the application
 [edu.harvard.cscis71.curriculum.WebLayerTest.java](https://github.com/curriculum-crawler/curriculum-crawler-backend/src/test/java/edu/harvard/cscis71/curriculum/WebLayerTest.java) | Mock test starting server asserting the behavior of the REST endpoints
 [edu.harvard.cscis71.curriculum.api.DocumentApiControllerTest.java](https://github.com/curriculum-crawler/curriculum-crawler-backend/src/test/java/edu/harvard/cscis71/curriculum/api/DocumentApiControllerTest.java) | Unit test testing document endpoint functionality
